@@ -69,5 +69,5 @@ https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 #EXTINF:-1 tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDRFernsehenInternational.de" tvg-country="DE" group-title="Germany",NDR International
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
-#EXTINF:-1 tvg-id="Keshet12.il" tvg-name="Keshet 12" tvg-logo="https://rcs.mako.co.il/images/headerV17/keshetLogoCut_150X72.jpg" group-title="Israel",Keshet 12
+#EXTINF:-1 tvg-id="קשת.il" tvg-name="Keshet 12" tvg-logo="https://rcs.mako.co.il/images/headerV17/keshetLogoCut_150X72.jpg" group-title="Israel",Keshet 12
 https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8
