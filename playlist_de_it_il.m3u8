@@ -810,6 +810,6 @@ https://www.twitch.tv/teleradiostereo
 #EXTINF:-1 tvg-name="כאן 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
 https://n-121-7.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png" tvg-id="קשת.il" group-title="Israel",קשת 12
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/hdntl=exp=1776669807~acl=%2f*~data=hdntl~hmac=b234774ca9e445c18d734dd384ac7ab882e1449aca13ad843baf8a9d354a363d/index_3400.m3u8
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/hdntl=exp=1776672185~acl=%2f*~data=hdntl~hmac=7f950ed3f7a36f4d5c08bb5becbc882f072ced139ec925a6a9c4af2c5efc2788/index_3400.m3u8
 #EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f3/Reshet13Logo2025.svg/1280px-Reshet13Logo2025.svg.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
 https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
