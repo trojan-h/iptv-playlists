@@ -810,6 +810,6 @@ https://www.twitch.tv/teleradiostereo
 #EXTINF:-1 tvg-name="כאן 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/640px-Kan11Logo.svg.png" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
 https://n-121-7.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Keshet12_2018.svg" tvg-id="קשת.il" group-title="Israel",קשת 12
-https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8
+https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/hdntl=exp=1776669807~acl=%2f*~data=hdntl~hmac=b234774ca9e445c18d734dd384ac7ab882e1449aca13ad843baf8a9d354a363d/index_3400.m3u8
 #EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/1/17/Reshet13Logo2022.svg/559px-Reshet13Logo2022.svg.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
 https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
