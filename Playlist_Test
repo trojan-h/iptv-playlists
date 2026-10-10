@@ -882,7 +882,7 @@ http://stream.mcquack.net/295/index.m3u8
 http://stream.mcquack.net/379/index.m3u8
 #EXTINF:-1 tvg-name="HOT Drama" tvg-id="HOTDrama.il" tvg-country="IL" group-title="Israel",HOT Drama
 http://stream.mcquack.net/381/index.m3u8
-#EXTINF:-1 tvg-name="Kan Educational" tvg-id="כאן.חינוכית.il" tvg-country="IL" group-title="Israel",Kan Educational
+#EXTINF:-1 tvg-name="כאן חינוכית" tvg-id="כאן.חינוכית.il" tvg-country="IL" group-title="Israel",Kan Educational
 http://stream.mcquack.net/378/index.m3u8
 #EXTINF:-1 tvg-name="Good Life" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png" tvg-id="GOOD.LIFE+.il" tvg-country="IL" group-title="Israel",Good Life
 http://stream.mcquack.net/47/index.m3u8
