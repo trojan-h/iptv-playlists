@@ -872,11 +872,11 @@ https://wzstreaming.rai.it/TVlive/smil:liveStream.smil/index.m3u8
 #EXTINF:-1 tvg-name="Romantica TV" tvg-id="RomanticaTV.it@SD" tvg-country="IT" group-title="Italy",Romantica TV
 https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8
 
-#EXTINF:-1 tvg-name="כאן 11" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
+#EXTINF:-1 tvg-name="כאן 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
 http://stream.mcquack.net/293/index.m3u8
-#EXTINF:-1 tvg-name="קשת 12" tvg-id="קשת.il" tvg-country="IL" group-title="Israel",קשת 12
+#EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png" tvg-id="קשת.il" group-title="Israel",קשת 12
 http://stream.mcquack.net/294/index.m3u8
-#EXTINF:-1 tvg-name="רשת 13" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
+#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f3/Reshet13Logo2025.svg/1280px-Reshet13Logo2025.svg.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
 http://stream.mcquack.net/295/index.m3u8
 #EXTINF:-1 tvg-name="HOT Zone" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png" tvg-id="HOTZone.il" tvg-country="IL" group-title="Israel",HOT Zone
 http://stream.mcquack.net/379/index.m3u8
