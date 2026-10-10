@@ -10,7 +10,7 @@ https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-name="ARTE " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/arte-de.png" tvg-id="ARTE.de" tvg-country="DE" group-title="Germany",ARTE
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
-#EXTINF:-1 tvg-name="DELUXE MUSIC RAP" tvg-id="DELUXE.MUSIC.de" tvg-country="DE" group-title="Germany",DELUXE MUSIC RAP
+#EXTINF:-1 tvg-name="DELUXE MUSIC RAP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/500px-Deluxe_Rap_Logo_2023.svg.png" tvg-id="DELUXE.MUSIC.de" tvg-country="DE" group-title="Germany",DELUXE MUSIC RAP
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 tvg-name="Euronews Deutsch " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/500px-Euronews_2022.svg.png" tvg-id="euronews.(ger).de" tvg-country="DE" group-title="Germany",Euronews Deutsch
 https://www.youtube.com/euronewsde/live
@@ -28,21 +28,21 @@ https://w-live2weltcms.akamaized.net/hls/live/2041019/Welt-LivePGM/index.m3u8
 https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-name="ZDFneo " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/zdf-neo-de.png" tvg-id="ZDFneo.de" tvg-country="DE" group-title="Germany",ZDFneo
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
-#EXTINF:-1 tvg-name="BR S'fcd " tvg-id="BR.de" tvg-country="DE" group-title="Germany",BR S'fcd
+#EXTINF:-1 tvg-name="BR Süd " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/br-sud-de.png" tvg-id="BR.de" tvg-country="DE" group-title="Germany",BR Süd
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
-#EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-id="DELUXE.MUSIC.de" tvg-country="DE" group-title="Germany",DELUXE MUSIC DANCE BY KONTOR
+#EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" tvg-id="DELUXE.MUSIC.de" tvg-country="DE" group-title="Germany",DELUXE MUSIC DANCE BY KONTOR
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
-#EXTINF:-1 tvg-name="BR Nord" tvg-id="BR.de" tvg-country="DE" group-title="Germany",BR Nord
+#EXTINF:-1 tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/500px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BR.de" tvg-country="DE" group-title="Germany",BR Nord
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-name="HR" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/hr-de.png" tvg-id="HR.de" tvg-country="DE" group-title="Germany",HR
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
-#EXTINF:-1 tvg-name="MDR Sachsen" tvg-id="MDR.de" tvg-country="DE" group-title="Germany",MDR Sachsen
+#EXTINF:-1 tvg-name="MDR Sachsen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png" tvg-id="MDR.de" tvg-country="DE" group-title="Germany",MDR Sachsen
 https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/index.m3u8
 #EXTINF:-1 tvg-name="NDR Hamburg" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/ndr-hamburg-de.png" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR Hamburg
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
 #EXTINF:-1 tvg-name="NDR Mecklenburg-Vorpommern" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/ndr-mecklenburg-vorpommern-de.png" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR Mecklenburg-Vorpommern
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
-#EXTINF:-1 tvg-name="NDR Niedersachsen" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR Niedersachsen
+#EXTINF:-1 tvg-name="NDR Niedersachsen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR Niedersachsen
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
 #EXTINF:-1 tvg-name="NDR Schleswig-Holstein" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/ndr-schleswig-holstein-de.png" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR Schleswig-Holstein
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
@@ -52,45 +52,45 @@ https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8
 https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/index.m3u8
 #EXTINF:-1 tvg-name="RBB Brandenburg" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/rbb-brandenburg-de.png" tvg-id="RBB.de" tvg-country="DE" group-title="Germany",RBB Brandenburg
 https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8
-#EXTINF:-1 tvg-name="SR" tvg-id="SWR/SR.de" tvg-country="DE" group-title="Germany",SR
+#EXTINF:-1 tvg-name="SR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/500px-SR_Fernsehen_Logo_2023.svg.png" tvg-id="SWR/SR.de" tvg-country="DE" group-title="Germany",SR
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
-#EXTINF:-1 tvg-name="SWR Baden-W'fcrttemberg" tvg-id="SWR/SR.de" tvg-country="DE" group-title="Germany",SWR Baden-W'fcrttemberg
+#EXTINF:-1 tvg-name="SWR Baden-Württemberg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png" tvg-id="SWR/SR.de" tvg-country="DE" group-title="Germany",SWR Baden-Württemberg
 https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8
-#EXTINF:-1 tvg-name="SWR Rheinland-Pfalz" tvg-id="SWR/SR.de" tvg-country="DE" group-title="Germany",SWR Rheinland-Pfalz
+#EXTINF:-1 tvg-name="SWR Rheinland-Pfalz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/500px-SWR_Logo_2023.svg.png" tvg-id="SWR/SR.de" tvg-country="DE" group-title="Germany",SWR Rheinland-Pfalz
 https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
 #EXTINF:-1 tvg-name="WDR" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/wdr-de.png" tvg-id="WDR.de" tvg-country="DE" group-title="Germany",WDR
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
-#EXTINF:-1 tvg-name="NDR International" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR International
+#EXTINF:-1 tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/500px-Logo_NDR_Fernsehen_2017.svg.png" tvg-id="NDR.de" tvg-country="DE" group-title="Germany",NDR International
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
 #EXTINF:-1 tvg-name="Alex Berlin" tvg-logo="https://i.imgur.com/eTmHk4e.png" tvg-country="DE" group-title="Germany",Alex Berlin
 https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8
-#EXTINF:-1 tvg-name="Allg'e4u TV" tvg-country="DE" group-title="Germany",Allg'e4u TV
+#EXTINF:-1 tvg-name="Allgäu TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/allgau-tv-de.png" tvg-country="DE" group-title="Germany",Allgäu TV
 https://stream01.welocal.stream/stream/fhd-allgaeutv_25679/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Adventure Earth" tvg-id="AdventureEarth.de@SD" tvg-country="DE" group-title="Germany",Adventure Earth
+#EXTINF:-1 tvg-name="Adventure Earth" tvg-logo="https://i.imgur.com/94Pq9Io.png" tvg-id="AdventureEarth.de@SD" tvg-country="DE" group-title="Germany",Adventure Earth
 https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8
 #EXTINF:-1 tvg-name="Anixe +" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/anixe-de.png" tvg-id="ANIXE.de" tvg-country="DE" group-title="Germany",Anixe + [GEO]
 https://ma.anixa.tv/clips/stream/anixesd/index.m3u8
 #EXTINF:-1 tvg-name="Anixe HD Serie" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/hd/anixe-hd-serie-de.png" tvg-id="AnixeHDSerie.de@SD" tvg-country="DE" group-title="Germany",Anixe HD Serie [GEO]
 https://ma.anixa.tv/clips/stream/anixehd/index.m3u8
-#EXTINF:-1 tvg-name="Aristo TV" tvg-id="AristoTV.de@SD" tvg-country="DE" group-title="Germany",Aristo TV [GEO]
+#EXTINF:-1 tvg-name="Aristo TV" tvg-logo="https://i.imgur.com/DLVjeno.png" tvg-id="AristoTV.de@SD" tvg-country="DE" group-title="Germany",Aristo TV [GEO]
 https://ma.anixa.tv/clips/stream/aristo/index.m3u8
-#EXTINF:-1 tvg-name="Augsburg TV" tvg-id="AugsburgTV.de@SD" tvg-country="DE" group-title="Germany",Augsburg TV
+#EXTINF:-1 tvg-name="Augsburg TV" tvg-logo="https://i.imgur.com/27AKMUL.png" tvg-id="AugsburgTV.de@SD" tvg-country="DE" group-title="Germany",Augsburg TV
 https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Autentic History" tvg-id="AutenticHistory.de@SD" tvg-country="DE" group-title="Germany",Autentic History
+#EXTINF:-1 tvg-name="Autentic History" tvg-logo="https://i.imgur.com/fVyTIbZ.png" tvg-id="AutenticHistory.de@SD" tvg-country="DE" group-title="Germany",Autentic History
 https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
-#EXTINF:-1 tvg-name="Autentic Travel" tvg-id="AutenticTravel.de@SD" tvg-country="DE" group-title="Germany",Autentic Travel
+#EXTINF:-1 tvg-name="Autentic Travel" tvg-logo="https://i.imgur.com/g1V9OH3.png" tvg-id="AutenticTravel.de@SD" tvg-country="DE" group-title="Germany",Autentic Travel
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
-#EXTINF:-1 tvg-name="Bibel TV Impuls" tvg-id="BibelTVImpuls.de@SD" tvg-country="DE" group-title="Germany",Bibel TV Impuls
+#EXTINF:-1 tvg-name="Bibel TV Impuls" tvg-logo="https://i.imgur.com/k4tbW3W.png" tvg-id="BibelTVImpuls.de@SD" tvg-country="DE" group-title="Germany",Bibel TV Impuls
 https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Bibel TV Musik" tvg-id="BibelTVMusik.de@SD" tvg-country="DE" group-title="Germany",Bibel TV Musik
+#EXTINF:-1 tvg-name="Bibel TV Musik" tvg-logo="https://i.imgur.com/yIqOcP5.png" tvg-id="BibelTVMusik.de@SD" tvg-country="DE" group-title="Germany",Bibel TV Musik
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="BLK Regional TV" tvg-id="BLKRegionalTV.de@SD" tvg-country="DE" group-title="Germany",BLK Regional TV
+#EXTINF:-1 tvg-name="BLK Regional TV" tvg-logo="https://i.imgur.com/JLgnPG1.png" tvg-id="BLKRegionalTV.de@SD" tvg-country="DE" group-title="Germany",BLK Regional TV
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8
-#EXTINF:-1 tvg-name="Chemnitz Fernsehen" tvg-id="SachsenFernsehenChemnitz.de@SD" tvg-country="DE" group-title="Germany",Chemnitz Fernsehen
+#EXTINF:-1 tvg-name="Chemnitz Fernsehen" tvg-logo="https://i.imgur.com/4SEAbVf.png" tvg-id="SachsenFernsehenChemnitz.de@SD" tvg-country="DE" group-title="Germany",Chemnitz Fernsehen
 https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Cira TV" tvg-id="CiraTV.de@SD" tvg-country="DE" group-title="Germany",Cira TV
+#EXTINF:-1 tvg-name="Cira TV" tvg-logo="https://i.imgur.com/YFnmSLW.png" tvg-id="CiraTV.de@SD" tvg-country="DE" group-title="Germany",Cira TV
 https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
-#EXTINF:-1 tvg-name="DASDING 90.8" tvg-id="DASDING908.de@SD" tvg-country="DE" group-title="Germany",DASDING 90.8
+#EXTINF:-1 tvg-name="DASDING 90.8" tvg-logo="https://i.imgur.com/BmklHs8.png" tvg-id="DASDING908.de@SD" tvg-country="DE" group-title="Germany",DASDING 90.8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-name="Deluxe Lounge" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/deluxe-lounge-de.png" tvg-id="DeluxeLounge.de@SD" tvg-country="DE" group-title="Germany",Deluxe Lounge
 https://jmp2.uk/stvp-CHAJ0500413A
@@ -100,51 +100,51 @@ https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1 tvg-name="Dresden Fernsehen" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/dresden-fernsehen-de.png" tvg-id="SachsenFernsehenDresden.de@SD" tvg-country="DE" group-title="Germany",Dresden Fernsehen
 https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="DW Arabic" tvg-id="DW.de@Arabic" tvg-country="DE" group-title="Germany",DW Arabic
+#EXTINF:-1 tvg-name="DW Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png" tvg-id="DW.de@Arabic" tvg-country="DE" group-title="Germany",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
-#EXTINF:-1 tvg-name="EchtJetzt TV" tvg-id="EchtJetztTV.de@SD" tvg-country="DE" group-title="Germany",EchtJetzt TV
+#EXTINF:-1 tvg-name="EchtJetzt TV" tvg-logo="https://i.ibb.co/ccNRGVj/download-10.png" tvg-id="EchtJetztTV.de@SD" tvg-country="DE" group-title="Germany",EchtJetzt TV
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-name="ems TV Lingen" tvg-id="emsTVLingen.de@SD" tvg-country="DE" group-title="Germany",ems TV Lingen
+#EXTINF:-1 tvg-name="ems TV Lingen" tvg-logo="https://i.imgur.com/Yo1GMku.png" tvg-id="emsTVLingen.de@SD" tvg-country="DE" group-title="Germany",ems TV Lingen
 https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Erz-TV Stollberg" tvg-id="ErzTVStollberg.de@SD" tvg-country="DE" group-title="Germany",Erz-TV Stollberg
+#EXTINF:-1 tvg-name="Erz-TV Stollberg" tvg-logo="https://i.imgur.com/6FHl9B1.png" tvg-id="ErzTVStollberg.de@SD" tvg-country="DE" group-title="Germany",Erz-TV Stollberg
 https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Filstalwelle" tvg-id="Filstalwelle.de@SD" tvg-country="DE" group-title="Germany",Filstalwelle
+#EXTINF:-1 tvg-name="Filstalwelle" tvg-logo="https://i.imgur.com/19iKLvf.png" tvg-id="Filstalwelle.de@SD" tvg-country="DE" group-title="Germany",Filstalwelle
 https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Finest TV" tvg-id="FinestTV.de@SD" tvg-country="DE" group-title="Germany",Finest TV
+#EXTINF:-1 tvg-name="Finest TV" tvg-logo="https://i.imgur.com/1uoP10V.png" tvg-id="FinestTV.de@SD" tvg-country="DE" group-title="Germany",Finest TV
 https://media.finest.tv/hls/live.m3u8
-#EXTINF:-1 tvg-name="Franken Fernsehen (Nürnberg)" tvg-id="FrankenFernsehen.de@SD" tvg-country="DE" group-title="Germany",Franken Fernsehen (Nürnberg)
+#EXTINF:-1 tvg-name="Franken Fernsehen (Nürnberg)" tvg-logo="https://i.imgur.com/3pGGLLD.png" tvg-id="FrankenFernsehen.de@SD" tvg-country="DE" group-title="Germany",Franken Fernsehen (Nürnberg)
 https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="FrankenPlus" tvg-id="" tvg-country="DE" group-title="Germany",FrankenPlus
 https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Handystar" tvg-id="Handystar.de@SD" tvg-country="DE" group-title="Germany",Handystar
+#EXTINF:-1 tvg-name="Handystar" tvg-logo="https://i.imgur.com/oMIygVf.png" tvg-id="Handystar.de@SD" tvg-country="DE" group-title="Germany",Handystar
 https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8
 #EXTINF:-1 tvg-name="HSE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/hse-de.png" tvg-id="HSE.de" tvg-country="DE" group-title="Germany",HSE
 https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
-#EXTINF:-1 tvg-name="HSE24 Extra" tvg-id="HSE.Extra.de" tvg-country="DE" group-title="Germany",HSE24 Extra
+#EXTINF:-1 tvg-name="HSE24 Extra" tvg-logo="https://i.imgur.com/nvMpbip.png" tvg-id="HSE.Extra.de" tvg-country="DE" group-title="Germany",HSE24 Extra
 https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
-#EXTINF:-1 tvg-name="HSE24 Trend" tvg-id="HSETrend.de@SD" tvg-country="DE" group-title="Germany",HSE24 Trend
+#EXTINF:-1 tvg-name="HSE24 Trend" tvg-logo="https://i.imgur.com/qwh2urX.png" tvg-id="HSETrend.de@SD" tvg-country="DE" group-title="Germany",HSE24 Trend
 https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
-#EXTINF:-1 tvg-name="iSTUFF" tvg-id="iSTUFF.de@SD" tvg-country="DE" group-title="Germany",iSTUFF
+#EXTINF:-1 tvg-name="iSTUFF" tvg-logo="https://i.imgur.com/1V3UXVb.jpg" tvg-id="iSTUFF.de@SD" tvg-country="DE" group-title="Germany",iSTUFF
 https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8
-#EXTINF:-1 tvg-name="Juwelo" tvg-id="Juwelo.de@SD" tvg-country="DE" group-title="Germany",Juwelo
+#EXTINF:-1 tvg-name="Juwelo" tvg-logo="https://i.imgur.com/vmX8Qin.png" tvg-id="Juwelo.de@SD" tvg-country="DE" group-title="Germany",Juwelo
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
-#EXTINF:-1 tvg-name="KaufBei TV" tvg-id="KaufBeiTV.de@SD" tvg-country="DE" group-title="Germany",KaufBei TV
+#EXTINF:-1 tvg-name="KaufBei TV" tvg-logo="https://i.imgur.com/CVJWiM0.png" tvg-id="KaufBeiTV.de@SD" tvg-country="DE" group-title="Germany",KaufBei TV
 https://api.alpaca.t62a.com/hls/9103/index.m3u8
-#EXTINF:-1 tvg-name="KulturMD" tvg-id="KulturMD.de@SD" tvg-country="DE" group-title="Germany",KulturMD
+#EXTINF:-1 tvg-name="KulturMD" tvg-logo="https://i.imgur.com/io7cJ1Z.png" tvg-id="KulturMD.de@SD" tvg-country="DE" group-title="Germany",KulturMD
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
-#EXTINF:-1 tvg-name="labor14" tvg-id="labor14.de@HD" tvg-country="DE" group-title="Germany",labor14
+#EXTINF:-1 tvg-name="labor14" tvg-logo="https://www.tlm.de/assets/uploads/general/Sonstiges/LogoExt/_500xAUTO_crop_center-center_none/21labor14.jpg" tvg-id="labor14.de@HD" tvg-country="DE" group-title="Germany",labor14
 https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Lausitzwelle" tvg-id="Lausitzwelle.de@SD" tvg-country="DE" group-title="Germany",Lausitzwelle
+#EXTINF:-1 tvg-name="Lausitzwelle" tvg-logo="https://i.imgur.com/4kYF4bK.png" tvg-id="Lausitzwelle.de@SD" tvg-country="DE" group-title="Germany",Lausitzwelle
 https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
-#EXTINF:-1 tvg-name="Leipzig Fernsehen" tvg-id="LEIPZIG.FERNSEHEN.de" tvg-country="DE" group-title="Germany",Leipzig Fernsehen
+#EXTINF:-1 tvg-name="Leipzig Fernsehen" tvg-logo="https://i.imgur.com/easmJUw.png" tvg-id="LEIPZIG.FERNSEHEN.de" tvg-country="DE" group-title="Germany",Leipzig Fernsehen
 https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Light Channel" tvg-id="LightChannel.de@SD" tvg-country="DE" group-title="Germany",Light Channel
+#EXTINF:-1 tvg-name="Light Channel" tvg-logo="https://i.imgur.com/0OmBlfE.png" tvg-id="LightChannel.de@SD" tvg-country="DE" group-title="Germany",Light Channel
 http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8
-#EXTINF:-1 tvg-name="Magenta Musik 360" tvg-id="MagentaMusik360.de@SD" tvg-country="DE" group-title="Germany",Magenta Musik 360 [GEO]
+#EXTINF:-1 tvg-name="Magenta Musik 360" tvg-logo="https://i.imgur.com/R74gG7U.png" tvg-id="MagentaMusik360.de@SD" tvg-country="DE" group-title="Germany",Magenta Musik 360 [GEO]
 https://streaming.magentamusik.de/csm/573870/magentamusik1/index.m3u8
 #EXTINF:-1 tvg-name="MC TV" tvg-id="MCTV.de@HD" tvg-country="DE" group-title="Germany",MC TV
 https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-name="MDF.1" tvg-id="MDF1.de@SD" tvg-country="DE" group-title="Germany",MDF.1
+#EXTINF:-1 tvg-name="MDF.1" tvg-logo="https://i.imgur.com/IFGXK6u.png" tvg-id="MDF1.de@SD" tvg-country="DE" group-title="Germany",MDF.1
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-name="More Than Sports TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/more-than-sports-tv-de.png" tvg-id="More.than.Sports.TV.de" tvg-country="DE" group-title="Germany",More Than Sports TV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
@@ -152,11 +152,11 @@ https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
 #EXTINF:-1 tvg-name="München TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/munchen-tv-de.png" tvg-id="münchen.tv.de" tvg-country="DE" group-title="Germany",München TV
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Nash Kinomir" tvg-id="NashKinomir.de@SD" tvg-country="DE" group-title="Germany",Nash Kinomir
+#EXTINF:-1 tvg-name="Nash Kinomir" tvg-logo="https://i.imgur.com/7M1J42A.png" tvg-id="NashKinomir.de@SD" tvg-country="DE" group-title="Germany",Nash Kinomir
 http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/nickelodeon-de.png" tvg-id="Nickelodeon.de@SD" tvg-country="DE" group-title="Germany",Nickelodeon
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
-#EXTINF:-1 tvg-name="Niederbayern TV" tvg-id="NiederbayernTV.de@SD" tvg-country="DE" group-title="Germany",Niederbayern TV
+#EXTINF:-1 tvg-name="Niederbayern TV" tvg-logo="https://i.imgur.com/9uaMgTk.png" tvg-id="NiederbayernTV.de@SD" tvg-country="DE" group-title="Germany",Niederbayern TV
 https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8
 #EXTINF:-1 tvg-name="Niederbayern TV Deggendorf & Straubing" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/niederbayern-tv-deggendorf-straubing-de.png" tvg-id="NiederbayernTVDeggendorfStraubing.de@SD" tvg-country="DE" group-title="Germany",Niederbayern TV Deggendorf & Straubing
 https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8
@@ -164,117 +164,117 @@ https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/i
 https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8
 #EXTINF:-1 tvg-name="Niederbayern TV Passau" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/niederbayern-tv-passau-de.png" tvg-id="NiederbayernTVPassau.de@SD" tvg-country="DE" group-title="Germany",Niederbayern TV Passau
 https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/index.m3u8
-#EXTINF:-1 tvg-name="Noa 4 Hamburg" tvg-id="noa4Hamburg.de@SD" tvg-country="DE" group-title="Germany",Noa 4 Hamburg
+#EXTINF:-1 tvg-name="Noa 4 Hamburg" tvg-logo="https://i.imgur.com/7A2LRKI.png" tvg-id="noa4Hamburg.de@SD" tvg-country="DE" group-title="Germany",Noa 4 Hamburg
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
-#EXTINF:-1 tvg-name="Noa 4 Norderstedt" tvg-id="noa4Norderstedt.de@SD" tvg-country="DE" group-title="Germany",Noa 4 Norderstedt
+#EXTINF:-1 tvg-name="Noa 4 Norderstedt" tvg-logo="https://i.imgur.com/941nrGb.png" tvg-id="noa4Norderstedt.de@SD" tvg-country="DE" group-title="Germany",Noa 4 Norderstedt
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-name="NRWision" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/nrwision-de.png" tvg-id="NRWision.de@SD" tvg-country="DE" group-title="Germany",NRWision
 https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Oberpfalz TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/oberpfalz-tv-de.png" tvg-id="OberpfalzTV.de@SD" tvg-country="DE" group-title="Germany",Oberpfalz TV
 https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="OF-TV Offenbach" tvg-id="OFTVOffenbach.de@SD" tvg-country="DE" group-title="Germany",OF-TV Offenbach
+#EXTINF:-1 tvg-name="OF-TV Offenbach" tvg-logo="https://i.imgur.com/WAcxCJr.png" tvg-id="OFTVOffenbach.de@SD" tvg-country="DE" group-title="Germany",OF-TV Offenbach
 https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8
 #EXTINF:-1 tvg-name="OK4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/ok4-de.png" tvg-id="OK4.de@SD" tvg-country="DE" group-title="Germany",OK4
 https://s.ok54.de/abr_ok4/live/playlist.m3u8
-#EXTINF:-1 tvg-name="OK54" tvg-id="OK54.de@SD" tvg-country="DE" group-title="Germany",OK54
+#EXTINF:-1 tvg-name="OK54" tvg-logo="https://ok54.de/wp-content/uploads/2013/04/ok54_logo_schwarz.png" tvg-id="OK54.de@SD" tvg-country="DE" group-title="Germany",OK54
 https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Dessau" tvg-id="OKDessau.de@SD" tvg-country="DE" group-title="Germany",OK Dessau
+#EXTINF:-1 tvg-name="OK Dessau" tvg-logo="https://i.imgur.com/nx4Wc8l.png" tvg-id="OKDessau.de@SD" tvg-country="DE" group-title="Germany",OK Dessau
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Flensburg" tvg-id="OKFlensburg.de@SD" tvg-country="DE" group-title="Germany",OK Flensburg
+#EXTINF:-1 tvg-name="OK Flensburg" tvg-logo="https://i.imgur.com/NPbfgQC.png" tvg-id="OKFlensburg.de@SD" tvg-country="DE" group-title="Germany",OK Flensburg
 https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8
-#EXTINF:-1 tvg-name="OK Kaiserslautern" tvg-id="OKKaiserslautern.de@SD" tvg-country="DE" group-title="Germany",OK Kaiserslautern
+#EXTINF:-1 tvg-name="OK Kaiserslautern" tvg-logo="https://i.imgur.com/MRrETTh.png" tvg-id="OKKaiserslautern.de@SD" tvg-country="DE" group-title="Germany",OK Kaiserslautern
 https://s.ok54.de/abr_okkl/webstream/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Kassel" tvg-id="OKKassel.de@SD" tvg-country="DE" group-title="Germany",OK Kassel
+#EXTINF:-1 tvg-name="OK Kassel" tvg-logo="https://i.imgur.com/igZ9sx2.png" tvg-id="OKKassel.de@SD" tvg-country="DE" group-title="Germany",OK Kassel
 https://s.ok54.de/mok-ks/kassel/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Kiel" tvg-id="OKKiel.de@SD" tvg-country="DE" group-title="Germany",OK Kiel
+#EXTINF:-1 tvg-name="OK Kiel" tvg-logo="https://i.imgur.com/eToHabX.png" tvg-id="OKKiel.de@SD" tvg-country="DE" group-title="Germany",OK Kiel
 https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
-#EXTINF:-1 tvg-name="OK Magdeburg" tvg-id="OKMagdeburg.de@SD" tvg-country="DE" group-title="Germany",OK Magdeburg
+#EXTINF:-1 tvg-name="OK Magdeburg" tvg-logo="https://i.imgur.com/zftoymR.png" tvg-id="OKMagdeburg.de@SD" tvg-country="DE" group-title="Germany",OK Magdeburg
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-magdeburg_high/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Merseburg-Querfurt" tvg-id="OKMerseburgQuerfurt.de@SD" tvg-country="DE" group-title="Germany",OK Merseburg-Querfurt
+#EXTINF:-1 tvg-name="OK Merseburg-Querfurt" tvg-logo="https://i.imgur.com/QfzdESc.png" tvg-id="OKMerseburgQuerfurt.de@SD" tvg-country="DE" group-title="Germany",OK Merseburg-Querfurt
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-merseburg_high/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Rhein-Main" tvg-id="OKRheinMain.de@SD" tvg-country="DE" group-title="Germany",OK Rhein-Main
+#EXTINF:-1 tvg-name="OK Rhein-Main" tvg-logo="https://i.imgur.com/XsmPI4N.jpg" tvg-id="OKRheinMain.de@SD" tvg-country="DE" group-title="Germany",OK Rhein-Main
 https://s.ok54.de/mok-rm/mok-rm/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Salzwedel" tvg-id="OKSalzwedel.de@SD" tvg-country="DE" group-title="Germany",OK Salzwedel
+#EXTINF:-1 tvg-name="OK Salzwedel" tvg-logo="https://i.imgur.com/jDmiTOS.png" tvg-id="OKSalzwedel.de@SD" tvg-country="DE" group-title="Germany",OK Salzwedel
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-salzwedel_high/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Stendal" tvg-id="OKStendal.de@SD" tvg-country="DE" group-title="Germany",OK Stendal
+#EXTINF:-1 tvg-name="OK Stendal" tvg-logo="https://i.imgur.com/s9wo85l.png" tvg-id="OKStendal.de@SD" tvg-country="DE" group-title="Germany",OK Stendal
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Trier" tvg-id="OKTrier.de@SD" tvg-country="DE" group-title="Germany",OK Trier
+#EXTINF:-1 tvg-name="OK Trier" tvg-logo="https://i.imgur.com/nq32HIs.png" tvg-id="OKTrier.de@SD" tvg-country="DE" group-title="Germany",OK Trier
 https://s.ok54.de/ott/webstream/playlist.m3u8
-#EXTINF:-1 tvg-name="OK Wernigerode" tvg-id="OKWernigerode.de@SD" tvg-country="DE" group-title="Germany",OK Wernigerode
+#EXTINF:-1 tvg-name="OK Wernigerode" tvg-logo="https://i.imgur.com/3gQvhSy.png" tvg-id="OKWernigerode.de@SD" tvg-country="DE" group-title="Germany",OK Wernigerode
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playlist.m3u8
-#EXTINF:-1 tvg-name="Ost West" tvg-id="OstWest.de@SD" tvg-country="DE" group-title="Germany",Ost West
+#EXTINF:-1 tvg-name="Ost West" tvg-logo="https://i.imgur.com/nSQWo49.png" tvg-id="OstWest.de@SD" tvg-country="DE" group-title="Germany",Ost West
 http://hls127.freeott.top:8080/OstWest/video.m3u8
-#EXTINF:-1 tvg-name="PUNKTum Fernsehen" tvg-id="PUNKTumFernsehen.de@SD" tvg-country="DE" group-title="Germany",PUNKTum Fernsehen
+#EXTINF:-1 tvg-name="PUNKTum Fernsehen" tvg-logo="https://i.imgur.com/3yamOmw.png" tvg-id="PUNKTumFernsehen.de@SD" tvg-country="DE" group-title="Germany",PUNKTum Fernsehen
 http://58bd5b7a98e04.streamlock.net/medienasa-live/punktum_high/playlist.m3u8
-#EXTINF:-1 tvg-name="QVC Germany" tvg-id="QVC.de" tvg-country="DE" group-title="Germany",QVC Germany
+#EXTINF:-1 tvg-name="QVC Germany" tvg-logo="https://i.imgur.com/EybRtsI.png" tvg-id="QVC.de" tvg-country="DE" group-title="Germany",QVC Germany
 https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8
 #EXTINF:-1 tvg-name="Radio Weser TV Bremen" tvg-id="RadioWeserTVBremen.de@SD" tvg-country="DE" group-title="Germany",Radio Weser TV Bremen
 https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8
-#EXTINF:-1 tvg-name="RAN1" tvg-id="RAN1.de@SD" tvg-country="DE" group-title="Germany",RAN1
+#EXTINF:-1 tvg-name="RAN1" tvg-logo="https://i.imgur.com/zRg2BEa.png" tvg-id="RAN1.de@SD" tvg-country="DE" group-title="Germany",RAN1
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8
-#EXTINF:-1 tvg-name="RBW" tvg-id="RBW.de@SD" tvg-country="DE" group-title="Germany",RBW
+#EXTINF:-1 tvg-name="RBW" tvg-logo="https://i.imgur.com/A0UKdix.png" tvg-id="RBW.de@SD" tvg-country="DE" group-title="Germany",RBW
 http://58bd5b7a98e04.streamlock.net/medienasa-live/rbw_high/playlist.m3u8
-#EXTINF:-1 tvg-name="Regio TV Bodensee" tvg-id="RegioTVBodensee.de@SD" tvg-country="DE" group-title="Germany",Regio TV Bodensee
+#EXTINF:-1 tvg-name="Regio TV Bodensee" tvg-logo="https://i.imgur.com/3koyLef.png" tvg-id="RegioTVBodensee.de@SD" tvg-country="DE" group-title="Germany",Regio TV Bodensee
 https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Regio TV Stuttgart" tvg-id="RegioTVStuttgart.de@SD" tvg-country="DE" group-title="Germany",Regio TV Stuttgart
+#EXTINF:-1 tvg-name="Regio TV Stuttgart" tvg-logo="https://i.imgur.com/3koyLef.png" tvg-id="RegioTVStuttgart.de@SD" tvg-country="DE" group-title="Germany",Regio TV Stuttgart
 https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="RFH" tvg-id="RFH.de@SD" tvg-country="DE" group-title="Germany",RFH
+#EXTINF:-1 tvg-name="RFH" tvg-logo="https://i.imgur.com/8DZa7in.png" tvg-id="RFH.de@SD" tvg-country="DE" group-title="Germany",RFH
 http://58bd5b7a98e04.streamlock.net/medienasa-live/RFH_high/playlist.m3u8
 #EXTINF:-1 tvg-name="RFO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/rfo-de.png" tvg-id="RFO.de@SD" tvg-country="DE" group-title="Germany",RFO
 https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-name="RiC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/ric-de.png" tvg-id="RiC.de" tvg-country="DE" group-title="Germany",RiC
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
-#EXTINF:-1 tvg-name="RT DE" tvg-id="RTDE.de@SD" tvg-country="DE" group-title="Germany",RT DE
+#EXTINF:-1 tvg-name="RT DE" tvg-logo="https://i.imgur.com/v1PIbB2.png" tvg-id="RTDE.de@SD" tvg-country="DE" group-title="Germany",RT DE
 https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8
 #EXTINF:-1 tvg-name="Saarland Fernsehen 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/saarland-fernsehen-1-de.png" tvg-id="SaarlandFernsehen1.de@SD" tvg-country="DE" group-title="Germany",Saarland Fernsehen 1
 https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Saarland Fernsehen 2" tvg-id="SaarlandFernsehen2.de@SD" tvg-country="DE" group-title="Germany",Saarland Fernsehen 2
+#EXTINF:-1 tvg-name="Saarland Fernsehen 2" tvg-logo="https://i.imgur.com/Yv7j4ia.png" tvg-id="SaarlandFernsehen2.de@SD" tvg-country="DE" group-title="Germany",Saarland Fernsehen 2
 https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3u8
 #EXTINF:-1 tvg-name="Sachsen Eins" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sachsen-eins-de.png" tvg-id="SachsenEins.de@SD" tvg-country="DE" group-title="Germany",Sachsen Eins
 https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="Seenluft24" tvg-id="Seenluft24.de@SD" tvg-country="DE" group-title="Germany",Seenluft24
+#EXTINF:-1 tvg-name="Seenluft24" tvg-logo="https://i.imgur.com/3TgBg9v.jpg" tvg-id="Seenluft24.de@SD" tvg-country="DE" group-title="Germany",Seenluft24
 https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref=
 #EXTINF:-1 tvg-name="Sender Neu Jerusalem" tvg-id="SenderNeuJerusalem.de@SD" tvg-country="DE" group-title="Germany",Sender Neu Jerusalem
 https://bild-und-ton.stream/snj-de/snj-de.smil/.m3u8
 #EXTINF:-1 tvg-name="Sonnenklar TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sonnenklar-tv-de.png" tvg-id="Sonnenklar.TV.de" tvg-country="DE" group-title="Germany",Sonnenklar TV
 http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
-#EXTINF:-1 tvg-name="Sophia TV" tvg-id="SophiaTV.de@SD" tvg-country="DE" group-title="Germany",Sophia TV
+#EXTINF:-1 tvg-name="Sophia TV" tvg-logo="https://i.imgur.com/1hNgHbB.png" tvg-id="SophiaTV.de@SD" tvg-country="DE" group-title="Germany",Sophia TV
 https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Sophia TV Español" tvg-id="SophiaTVEspanol.de@SD" tvg-country="DE" group-title="Germany",Sophia TV Español
+#EXTINF:-1 tvg-name="Sophia TV Español" tvg-logo="https://i.imgur.com/T2JPCq2.png" tvg-id="SophiaTVEspanol.de@SD" tvg-country="DE" group-title="Germany",Sophia TV Español
 https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Sophia TV Français" tvg-id="SophiaTVFrancais.de@SD" tvg-country="DE" group-title="Germany",Sophia TV Français
+#EXTINF:-1 tvg-name="Sophia TV Français" tvg-logo="https://i.imgur.com/T2JPCq2.png" tvg-id="SophiaTVFrancais.de@SD" tvg-country="DE" group-title="Germany",Sophia TV Français
 https://bild-und-ton.stream/sophiatv-fr/smil:sophia-tv-fr.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Sophia TV Italy" tvg-id="SophiaTV.it@SD" tvg-country="DE" group-title="Germany",Sophia TV Italy
+#EXTINF:-1 tvg-name="Sophia TV Italy" tvg-logo="https://i.imgur.com/RPXusvS.png" tvg-id="SophiaTV.it@SD" tvg-country="DE" group-title="Germany",Sophia TV Italy
 https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="SWR 3 Visual Radio" tvg-id="SWR3VisualRadio.de@SD" tvg-country="DE" group-title="Germany",SWR 3 Visual Radio
+#EXTINF:-1 tvg-name="SWR 3 Visual Radio" tvg-logo="https://i.imgur.com/PxSgxRO.jpg" tvg-id="SWR3VisualRadio.de@SD" tvg-country="DE" group-title="Germany",SWR 3 Visual Radio
 https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
-#EXTINF:-1 tvg-name="teltOwkanal" tvg-id="teltOwkanal.de@SD" tvg-country="DE" group-title="Germany",teltOwkanal
+#EXTINF:-1 tvg-name="teltOwkanal" tvg-logo="https://i.imgur.com/G0cImlU.png" tvg-id="teltOwkanal.de@SD" tvg-country="DE" group-title="Germany",teltOwkanal
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-name="Terra Mater WILD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/terra-mater-wild-de.png" tvg-id="TerraMaterWILD.de@German" tvg-country="DE" group-title="Germany",Terra Mater WILD
 https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-name="TV38 Südost-Niedersachen" tvg-id="TV38SudostNiedersachen.de@SD" tvg-country="DE" group-title="Germany",TV38 Südost-Niedersachen
+#EXTINF:-1 tvg-name="TV38 Südost-Niedersachen" tvg-logo="https://i.imgur.com/ob9JJPU.png" tvg-id="TV38SudostNiedersachen.de@SD" tvg-country="DE" group-title="Germany",TV38 Südost-Niedersachen
 https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8?ref=
 #EXTINF:-1 tvg-name="TV Ingolstadt" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/tv-ingolstadt-de.png" tvg-id="TVIngolstadt.de@SD" tvg-country="DE" group-title="Germany",TV Ingolstadt
 https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Mainfranken" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/tv-mainfranken-de.png" tvg-id="TVMainfranken.de@SD" tvg-country="DE" group-title="Germany",TV Mainfranken
 https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Oberfranken (TVO)" tvg-id="TVOberfranken.de@SD" tvg-country="DE" group-title="Germany",TV Oberfranken (TVO)
+#EXTINF:-1 tvg-name="TV Oberfranken (TVO)" tvg-logo="https://i.imgur.com/tjD9fX2.png" tvg-id="TVOberfranken.de@SD" tvg-country="DE" group-title="Germany",TV Oberfranken (TVO)
 https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="TVA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/tva-de.png" tvg-id="TVA.de@SD" tvg-country="DE" group-title="Germany",TVA
 https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="TVRUS" tvg-id="TVRUS.de@SD" tvg-country="DE" group-title="Germany",TVRUS
+#EXTINF:-1 tvg-name="TVRUS" tvg-logo="https://i.imgur.com/2mJKi7g.png" tvg-id="TVRUS.de@SD" tvg-country="DE" group-title="Germany",TVRUS
 http://213.91.179.28:8000/play/a082
-#EXTINF:-1 tvg-name="TVRUS+" tvg-id="TVRUSPlus.de@HD" tvg-country="DE" group-title="Germany",TVRUS+
+#EXTINF:-1 tvg-name="TVRUS+" tvg-logo="https://i.imgur.com/2mJKi7g.png" tvg-id="TVRUSPlus.de@HD" tvg-country="DE" group-title="Germany",TVRUS+
 http://83.228.75.166:8000/play/a0aq
 #EXTINF:-1 tvg-name="Volksmusik TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/volksmusik-tv-de.png" tvg-id="VolksmusikTV.de@SD" tvg-country="DE" group-title="Germany",Volksmusik TV
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
-#EXTINF:-1 tvg-name="WDR 1 Live" tvg-id="WDR1Live.de@SD" tvg-country="DE" group-title="Germany",WDR 1 Live
+#EXTINF:-1 tvg-name="WDR 1 Live" tvg-logo="https://i.imgur.com/RbqDMYx.png" tvg-id="WDR1Live.de@SD" tvg-country="DE" group-title="Germany",WDR 1 Live
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 #EXTINF:-1 tvg-name="Welt der Wunder TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/welt-der-wunder-de.png" tvg-id="Welt.der.Wunder.TV.de" tvg-country="DE" group-title="Germany",Welt der Wunder TV
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
-#EXTINF:-1 tvg-name="Ost West 24" tvg-id="OstWest24.de@SD" tvg-country="DE" group-title="Germany",Ost West 24
+#EXTINF:-1 tvg-name="Ost West 24" tvg-logo="https://i.imgur.com/voeQ6x1.png" tvg-id="OstWest24.de@SD" tvg-country="DE" group-title="Germany",Ost West 24
 http://stream.mcquack.net/455/index.m3u8
-#EXTINF:-1 tvg-name="YOL TV" tvg-id="YOLTV.de@SD" tvg-country="DE" group-title="Germany",YOL TV
+#EXTINF:-1 tvg-name="YOL TV" tvg-logo="https://i.imgur.com/rTBX6lS.png" tvg-id="YOLTV.de@SD" tvg-country="DE" group-title="Germany",YOL TV
 https://live.yoltv.com/hls/stream.m3u8
 
 #EXTINF:-1 tvg-name="RTL 102.5" tvg-logo="https://i.imgur.com/KdissvS.png" tvg-id="RTL.102.5.HD.it" tvg-country="IT" group-title="Italy",RTL 102.5
@@ -437,11 +437,11 @@ https://srvx1.selftv.video/espansione/smil:live.smil/playlist.m3u8
 https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Etna Espresso Channel" tvg-logo="https://i.imgur.com/hMUxytZ.png" tvg-country="IT" group-title="Italy",Etna Espresso Channel
 https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8
-#EXTINF:-1 tvg-name="'e8 Tv Marche" tvg-logo="https://i.imgur.com/vxgbFnR.png" tvg-country="IT" group-title="Italy",'e8 Tv Marche
+#EXTINF:-1 tvg-name="è Tv Marche" tvg-logo="https://i.imgur.com/vxgbFnR.png" tvg-country="IT" group-title="Italy",è Tv Marche
 https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="'e8 Tv Rete7" tvg-logo="https://i.imgur.com/FXFzJhM.png" tvg-country="IT" group-title="Italy",'e8 Tv Rete7
+#EXTINF:-1 tvg-name="è Tv Rete7" tvg-logo="https://i.imgur.com/FXFzJhM.png" tvg-country="IT" group-title="Italy",è Tv Rete7
 https://live.ipstream.it/etv/etv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="'e8 Tv Umbria" tvg-logo="https://i.imgur.com/DASRCe2.png" tvg-country="IT" group-title="Italy",'e8 Tv Umbria
+#EXTINF:-1 tvg-name="è Tv Umbria" tvg-logo="https://i.imgur.com/DASRCe2.png" tvg-country="IT" group-title="Italy",è Tv Umbria
 https://live.ipstream.it/etvumbria/etvumbria.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Extra Tv" tvg-logo="https://i.imgur.com/KCBurST.png" tvg-country="IT" group-title="Italy",Extra Tv
 https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8
@@ -511,7 +511,7 @@ https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8
 https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
 #EXTINF:-1 tvg-name="Peer Tv Alto Adige" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png" tvg-id="PeerTV.it" tvg-country="IT" group-title="Italy",Peer Tv Alto Adige
 https://iptv.peer.biz/live/peertv-it.m3u8
-#EXTINF:-1 tvg-name="Peer TV S'fcdtirol" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" tvg-id="PeerTV.de" tvg-country="IT" group-title="Italy",Peer TV S'fcdtirol
+#EXTINF:-1 tvg-name="Peer TV Südtirol" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" tvg-id="PeerTV.de" tvg-country="IT" group-title="Italy",Peer TV Südtirol
 https://iptv.peer.biz/live/peertv.m3u8
 #EXTINF:-1 tvg-name="Prima Tv Napoli" tvg-logo="https://i.imgur.com/yPuQeEy.jpg" tvg-country="IT" group-title="Italy",Prima Tv Napoli
 https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8
@@ -533,7 +533,7 @@ https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8
 https://str48.fluid.stream/RadioIbizaTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Italia Cina Tv" tvg-logo="https://i.imgur.com/QGkyrO3.png" tvg-country="IT" group-title="Italy",Radio Italia Cina Tv
 https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Libert'e0" tvg-logo="https://i.imgur.com/HRvPlf5.png" tvg-country="IT" group-title="Italy",Radio Libert'e0
+#EXTINF:-1 tvg-name="Radio Libertà" tvg-logo="https://i.imgur.com/HRvPlf5.png" tvg-country="IT" group-title="Italy",Radio Libertà
 https://router.xdevel.com/video0s975360-67/stream/playlist_dvr.m3u8
 #EXTINF:-1 tvg-name="Radio m2o Tv" tvg-logo="https://i.imgur.com/wl30UFj.png" tvg-id="m2oTV.it" tvg-country="IT" group-title="Italy",Radio m2o Tv
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
@@ -713,7 +713,7 @@ https://5db313b643fd8.streamlock.net/WLTV/WLTV/playlist.m3u8
 https://www.youtube.com/radiocolonna/live
 #EXTINF:-1 tvg-name="TRM h24 " tvg-logo="https://i.imgur.com/d47CdYU.png" tvg-id="TRM.h24.it" tvg-country="IT" group-title="Italy",TRM h24
 https://www.youtube.com/user/trmh24/live
-#EXTINF:-1 tvg-name="Euronews Italian " tvg-id="EuronewsItalian.fr" tvg-country="IT" group-title="Italy",Euronews Italian
+#EXTINF:-1 tvg-name="Euronews Italian " tvg-logo="https://provider-static.plex.tv/epg/cms/production/ca19114a-f498-4ac3-bade-257fb304e0be/ITLogo_Euronews_stacked_white_on_italien_1500x1000whtrdx2.png" tvg-id="EuronewsItalian.fr" tvg-country="IT" group-title="Italy",Euronews Italian
 https://www.youtube.com/user/euronewsit/live
 #EXTINF:-1 tvg-name="Antenna Sicilia " tvg-logo="https://i.imgur.com/8DOdqsE.png" tvg-country="IT" group-title="Italy",Antenna Sicilia
 https://www.twitch.tv/antennasicilia
@@ -725,164 +725,164 @@ https://www.twitch.tv/teleroma_56
 https://www.twitch.tv/teleradiostereo
 #EXTINF:-1 tvg-name="7 RadioVisione" tvg-id="7RadioVisione.it@HD" tvg-country="IT" group-title="Italy",7 RadioVisione
 https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="50 Canale" tvg-id="50Canale.it@SD" tvg-country="IT" group-title="Italy",50 Canale
+#EXTINF:-1 tvg-name="50 Canale" tvg-logo="https://i.imgur.com/D3OTRzf.png" tvg-id="50Canale.it@SD" tvg-country="IT" group-title="Italy",50 Canale
 https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8
-#EXTINF:-1 tvg-name="51 Radio TV" tvg-id="51RadioTV.it@SD" tvg-country="IT" group-title="Italy",51 Radio TV
+#EXTINF:-1 tvg-name="51 Radio TV" tvg-logo="https://www.51news.it/images/loghi/logo_tv_radio_51news.png" tvg-id="51RadioTV.it@SD" tvg-country="IT" group-title="Italy",51 Radio TV
 http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
-#EXTINF:-1 tvg-name="70-80 TV (1080P)" tvg-id="7080TV.it@SD" tvg-country="IT" group-title="Italy",70-80 TV (1080P)
+#EXTINF:-1 tvg-name="70-80 TV (1080P)" tvg-logo="https://i.imgur.com/y4kNV3Q.png" tvg-id="7080TV.it@SD" tvg-country="IT" group-title="Italy",70-80 TV (1080P)
 https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
-#EXTINF:-1 tvg-name="A2i TV" tvg-id="A2iTV.it@SD" tvg-country="IT" group-title="Italy",A2i TV
+#EXTINF:-1 tvg-name="A2i TV" tvg-logo="https://i.imgur.com/YlDFir7.jpg" tvg-id="A2iTV.it@SD" tvg-country="IT" group-title="Italy",A2i TV
 https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="ACI Sport TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/aci-sport-tv-it.png" tvg-id="ACI.Sport.Tv.it" tvg-country="IT" group-title="Italy",ACI Sport TV
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
-#EXTINF:-1 tvg-name="Antenna 2 TV" tvg-id="Antenna2TV.it@SD" tvg-country="IT" group-title="Italy",Antenna 2 TV
+#EXTINF:-1 tvg-name="Antenna 2 TV" tvg-logo="https://i.imgur.com/kNrzk3X.png" tvg-id="Antenna2TV.it@SD" tvg-country="IT" group-title="Italy",Antenna 2 TV
 https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Canale 2 Altamura" tvg-id="Canale2Altamura.it@SD" tvg-country="IT" group-title="Italy",Canale 2 Altamura
+#EXTINF:-1 tvg-name="Canale 2 Altamura" tvg-logo="https://i.imgur.com/7XXdN5T.png" tvg-id="Canale2Altamura.it@SD" tvg-country="IT" group-title="Italy",Canale 2 Altamura
 https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8
-#EXTINF:-1 tvg-name="Canale 8" tvg-id="Canale8.it@SD" tvg-country="IT" group-title="Italy",Canale 8
+#EXTINF:-1 tvg-name="Canale 8" tvg-logo="https://i.imgur.com/xwYmFgj.png" tvg-id="Canale8.it@SD" tvg-country="IT" group-title="Italy",Canale 8
 http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8
-#EXTINF:-1 tvg-name="DellaTV" tvg-id="DellaTV.it@HD" tvg-country="IT" group-title="Italy",DellaTV
+#EXTINF:-1 tvg-name="DellaTV" tvg-logo="https://i.imgur.com/6lvQ3Xz.png" tvg-id="DellaTV.it@HD" tvg-country="IT" group-title="Italy",DellaTV
 https://live20.bozztv.com/giatvplayout7/giatv-211474/playlist.m3u8
-#EXTINF:-1 tvg-name="Elive TV Brescia" tvg-id="EliveTVBrescia.it@SD" tvg-country="IT" group-title="Italy",Elive TV Brescia
+#EXTINF:-1 tvg-name="Elive TV Brescia" tvg-logo="https://i.imgur.com/gZxjLph.png" tvg-id="EliveTVBrescia.it@SD" tvg-country="IT" group-title="Italy",Elive TV Brescia
 https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
-#EXTINF:-1 tvg-name="èTv Marche" tvg-id="eTvMarche.it@SD" tvg-country="IT" group-title="Italy",èTv Marche
+#EXTINF:-1 tvg-name="èTv Marche" tvg-logo="https://i.imgur.com/U6OW577.png" tvg-id="eTvMarche.it@SD" tvg-country="IT" group-title="Italy",èTv Marche
 https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="èTv Rete 7" tvg-id="eTvRete7.it@SD" tvg-country="IT" group-title="Italy",èTv Rete 7
+#EXTINF:-1 tvg-name="èTv Rete 7" tvg-logo="https://i.imgur.com/xYVI5OC.png" tvg-id="eTvRete7.it@SD" tvg-country="IT" group-title="Italy",èTv Rete 7
 https://live.ipstream.it/etv/etv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Euro Indie Music Chart TV" tvg-id="EuroIndieMusicChartTV.it@SD" tvg-country="IT" group-title="Italy",Euro Indie Music Chart TV
+#EXTINF:-1 tvg-name="Euro Indie Music Chart TV" tvg-logo="https://i.imgur.com/lF0iofX.png" tvg-id="EuroIndieMusicChartTV.it@SD" tvg-country="IT" group-title="Italy",Euro Indie Music Chart TV
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1 tvg-name="FM ITALIA" tvg-id="FMITALIA.it@SD" tvg-country="IT" group-title="Italy",FM ITALIA
+#EXTINF:-1 tvg-name="FM ITALIA" tvg-logo="https://i.imgur.com/54CO2u9.png" tvg-id="FMITALIA.it@SD" tvg-country="IT" group-title="Italy",FM ITALIA
 https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="GRP VERATV" tvg-id="GRPVERATV.it@SD" tvg-country="IT" group-title="Italy",GRP VERATV
+#EXTINF:-1 tvg-name="GRP VERATV" tvg-logo="https://i.imgur.com/jasSHXJ.png" tvg-id="GRPVERATV.it@SD" tvg-country="IT" group-title="Italy",GRP VERATV
 https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5_output_0.m3u8
-#EXTINF:-1 tvg-name="Icaro TV" tvg-id="IcaroTV.it@SD" tvg-country="IT" group-title="Italy",Icaro TV
+#EXTINF:-1 tvg-name="Icaro TV" tvg-logo="https://i.imgur.com/nWBWzNy.png" tvg-id="IcaroTV.it@SD" tvg-country="IT" group-title="Italy",Icaro TV
 https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
-#EXTINF:-1 tvg-name="Italian Fishing TV" tvg-id="ItalianFishingTV.it@SD" tvg-country="IT" group-title="Italy",Italian Fishing TV
+#EXTINF:-1 tvg-name="Italian Fishing TV" tvg-logo="https://i.imgur.com/qrn6tUO.png" tvg-id="ItalianFishingTV.it@SD" tvg-country="IT" group-title="Italy",Italian Fishing TV
 https://fms.premio.link/fishingtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Juwelo Italia" tvg-id="Juwelo.it@SD" tvg-country="IT" group-title="Italy",Juwelo Italia
+#EXTINF:-1 tvg-name="Juwelo Italia" tvg-logo="https://i.imgur.com/T3r1khc.png" tvg-id="Juwelo.it@SD" tvg-country="IT" group-title="Italy",Juwelo Italia
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7841/7841_264_live.m3u8
-#EXTINF:-1 tvg-name="Kiss Kiss Napoli TV" tvg-id="KissKissNapoliTV.it@SD" tvg-country="IT" group-title="Italy",Kiss Kiss Napoli TV
+#EXTINF:-1 tvg-name="Kiss Kiss Napoli TV" tvg-logo="https://i.imgur.com/RsGiBwE.png" tvg-id="KissKissNapoliTV.it@SD" tvg-country="IT" group-title="Italy",Kiss Kiss Napoli TV
 https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="LA7d" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png" tvg-id="LA7D.it" tvg-country="IT" group-title="Italy",LA7d [GEO]
 https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
 #EXTINF:-1 tvg-name="La C TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/lac-tv-it.png" tvg-id="LaCTV.it@SD" tvg-country="IT" group-title="Italy",La C TV
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8
-#EXTINF:-1 tvg-name="Le Cronache TV" tvg-id="LeCronacheTV.it@SD" tvg-country="IT" group-title="Italy",Le Cronache TV
+#EXTINF:-1 tvg-name="Le Cronache TV" tvg-logo="https://i.imgur.com/d8ziiEJ.png" tvg-id="LeCronacheTV.it@SD" tvg-country="IT" group-title="Italy",Le Cronache TV
 http://77.68.40.210:8888/hls/cronache.m3u8
-#EXTINF:-1 tvg-name="MadeinBO TV" tvg-id="MadeinBOTV.it@SD" tvg-country="IT" group-title="Italy",MadeinBO TV
+#EXTINF:-1 tvg-name="MadeinBO TV" tvg-logo="https://i.imgur.com/47X44DD.png" tvg-id="MadeinBOTV.it@SD" tvg-country="IT" group-title="Italy",MadeinBO TV
 https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
-#EXTINF:-1 tvg-name="Mediaset Italia" tvg-id="MediasetItalia.it@SD" tvg-country="IT" group-title="Italy",Mediaset Italia
+#EXTINF:-1 tvg-name="Mediaset Italia" tvg-logo="https://i.imgur.com/F4gyqhw.png" tvg-id="MediasetItalia.it@SD" tvg-country="IT" group-title="Italy",Mediaset Italia
 https://d3k8wzt41aflvx.cloudfront.net/MediasetEU/Live.m3u8
-#EXTINF:-1 tvg-name="NTN" tvg-id="NTN.it@SD" tvg-country="IT" group-title="Italy",NTN [GEO]
+#EXTINF:-1 tvg-name="NTN" tvg-logo="https://i.imgur.com/AW5fJwa.png" tvg-id="NTN.it@SD" tvg-country="IT" group-title="Italy",NTN [GEO]
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Onda TV" tvg-id="OndaTV.it@SD" tvg-country="IT" group-title="Italy",Onda TV
 https://5926fc9c7c5b2.streamlock.net/9040/9040/chunklist_w1373908906.m3u8
-#EXTINF:-1 tvg-name="Peer TV South Tyrol" tvg-id="PeerTVSouthTyrol.it@SD" tvg-country="IT" group-title="Italy",Peer TV South Tyrol
+#EXTINF:-1 tvg-name="Peer TV South Tyrol" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-south-tyrol.png" tvg-id="PeerTVSouthTyrol.it@SD" tvg-country="IT" group-title="Italy",Peer TV South Tyrol
 https://iptv.peer.biz/live/peertv-en.m3u8
 #EXTINF:-1 tvg-name="Radio Capital TiVu" tvg-id="RadioCapitalTiVu.it@HD" tvg-country="IT" group-title="Italy",Radio Capital TiVu
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Freccia TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-freccia-it.png" tvg-id="Radiofreccia.it@SD" tvg-country="IT" group-title="Italy",Radio Freccia TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
-#EXTINF:-1 tvg-name="Radio Ibiza TV" tvg-id="RadioIbizaTV.it@SD" tvg-country="IT" group-title="Italy",Radio Ibiza TV
+#EXTINF:-1 tvg-name="Radio Ibiza TV" tvg-logo="https://i.imgur.com/KfFqYQi.png" tvg-id="RadioIbizaTV.it@SD" tvg-country="IT" group-title="Italy",Radio Ibiza TV
 https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Iglesias" tvg-id="RadioIglesias.it@SD" tvg-country="IT" group-title="Italy",Radio Iglesias
+#EXTINF:-1 tvg-name="Radio Iglesias" tvg-logo="https://i.imgur.com/2OXQpZM.png" tvg-id="RadioIglesias.it@SD" tvg-country="IT" group-title="Italy",Radio Iglesias
 http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Iglesias Sardegna" tvg-id="RadioIglesiasSardegna.it@SD" tvg-country="IT" group-title="Italy",Radio Iglesias Sardegna
+#EXTINF:-1 tvg-name="Radio Iglesias Sardegna" tvg-logo="https://i.imgur.com/KDtVpLl.png" tvg-id="RadioIglesiasSardegna.it@SD" tvg-country="IT" group-title="Italy",Radio Iglesias Sardegna
 https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Number One" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-number-one-tv-it.png" tvg-id="RadioNumberOne.it@SD" tvg-country="IT" group-title="Italy",Radio Number One
 https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Studio Delta TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-studio-delta-it.png" tvg-id="RadioStudioDeltaTV.it@SD" tvg-country="IT" group-title="Italy",Radio Studio Delta TV
 https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Taormina Sicilia" tvg-id="RadioTaorminaSicilia.it@SD" tvg-country="IT" group-title="Italy",Radio Taormina Sicilia
+#EXTINF:-1 tvg-name="Radio Taormina Sicilia" tvg-logo="https://i.imgur.com/SrhtocV.png" tvg-id="RadioTaorminaSicilia.it@SD" tvg-country="IT" group-title="Italy",Radio Taormina Sicilia
 https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Zeta TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-zeta-it.png" tvg-id="RadioZeta.it@SD" tvg-country="IT" group-title="Italy",Radio Zeta TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
-#EXTINF:-1 tvg-name="Rai Italia" tvg-id="RaiItalia.it@EuropeAfrica" tvg-country="IT" group-title="Italy",Rai Italia
+#EXTINF:-1 tvg-name="Rai Italia" tvg-logo="https://i.imgur.com/1nN4rEP.png" tvg-id="RaiItalia.it@EuropeAfrica" tvg-country="IT" group-title="Italy",Rai Italia
 https://d3k8wzt41aflvx.cloudfront.net/RAIEU/Live.m3u8
-#EXTINF:-1 tvg-name="Rai World Premium" tvg-id="RaiWorldPremium.it@SD" tvg-country="IT" group-title="Italy",Rai World Premium
+#EXTINF:-1 tvg-name="Rai World Premium" tvg-logo="https://i.imgur.com/tDuKkh3.png" tvg-id="RaiWorldPremium.it@SD" tvg-country="IT" group-title="Italy",Rai World Premium
 https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8
-#EXTINF:-1 tvg-name="Rete Oro" tvg-id="ReteOro.it@SD" tvg-country="IT" group-title="Italy",Rete Oro
+#EXTINF:-1 tvg-name="Rete Oro" tvg-logo="https://i.imgur.com/3oYiBSz.png" tvg-id="ReteOro.it@SD" tvg-country="IT" group-title="Italy",Rete Oro
 https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Best" tvg-id="RTL1025Best.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Best
+#EXTINF:-1 tvg-name="RTL 102.5 Best" tvg-logo="https://i.imgur.com/9PNlbaq.png" tvg-id="RTL1025Best.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Best
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Bro&Sis" tvg-id="RTL1025BroSis.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Bro&Sis
+#EXTINF:-1 tvg-name="RTL 102.5 Bro&Sis" tvg-logo="https://i.imgur.com/EWbK4XZ.png" tvg-id="RTL1025BroSis.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Bro&Sis
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Caliente" tvg-id="RTL1025Caliente.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Caliente
+#EXTINF:-1 tvg-name="RTL 102.5 Caliente" tvg-logo="https://i.imgur.com/P0zsi6I.png" tvg-id="RTL1025Caliente.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Caliente
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Disco" tvg-id="RTL1025Disco.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Disco
+#EXTINF:-1 tvg-name="RTL 102.5 Disco" tvg-logo="https://i.imgur.com/JA1OPrz.png" tvg-id="RTL1025Disco.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Disco
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Napulè" tvg-id="RTL1025Napule.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Napulè
+#EXTINF:-1 tvg-name="RTL 102.5 Napulè" tvg-logo="https://i.imgur.com/HFPw1YW.png" tvg-id="RTL1025Napule.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 Napulè
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8
 #EXTINF:-1 tvg-name="RTL 102.5 TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rtl-1025-it.png" tvg-id="RTL1025TV.it@SD" tvg-country="IT" group-title="Italy",RTL 102.5 TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 #EXTINF:-1 tvg-name="RTP" tvg-id="RTP.it@SD" tvg-country="IT" group-title="Italy",RTP
 https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
-#EXTINF:-1 tvg-name="RTTR Trento" tvg-id="RTTRTrento.it@SD" tvg-country="IT" group-title="Italy",RTTR Trento
+#EXTINF:-1 tvg-name="RTTR Trento" tvg-logo="https://i.imgur.com/6DyzN8M.png" tvg-id="RTTRTrento.it@SD" tvg-country="IT" group-title="Italy",RTTR Trento
 https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="RTV38" tvg-id="RTV38.it@SD" tvg-country="IT" group-title="Italy",RTV38
+#EXTINF:-1 tvg-name="RTV38" tvg-logo="https://i.imgur.com/YOlwudm.png" tvg-id="RTV38.it@SD" tvg-country="IT" group-title="Italy",RTV38
 https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
-#EXTINF:-1 tvg-name="Sportitalia 24" tvg-id="Sportitalia24.it@SD" tvg-country="IT" group-title="Italy",Sportitalia 24 [GEO]
+#EXTINF:-1 tvg-name="Sportitalia 24" tvg-logo="https://i.imgur.com/RSwnoLn.png" tvg-id="Sportitalia24.it@SD" tvg-country="IT" group-title="Italy",Sportitalia 24 [GEO]
 https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Sportitalia Live 24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/hd/sportitalia-live24-hd-it.png" tvg-id="" tvg-country="IT" group-title="Italy",Sportitalia Live 24 [GEO]
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Sportitalia Motori" tvg-id="SportitaliaMotori.it@SD" tvg-country="IT" group-title="Italy",Sportitalia Motori [GEO]
+#EXTINF:-1 tvg-name="Sportitalia Motori" tvg-logo="https://i.imgur.com/hu56Ya5.png" tvg-id="SportitaliaMotori.it@SD" tvg-country="IT" group-title="Italy",Sportitalia Motori [GEO]
 https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Stereo 5 TV" tvg-id="Stereo5TV.it@SD" tvg-country="IT" group-title="Italy",Stereo 5 TV
+#EXTINF:-1 tvg-name="Stereo 5 TV" tvg-logo="https://i.imgur.com/sCDcYFW.png" tvg-id="Stereo5TV.it@SD" tvg-country="IT" group-title="Italy",Stereo 5 TV
 https://stream1.aswifi.it/stereo5/live/index.m3u8
 #EXTINF:-1 tvg-name="Super TV Brescia" tvg-id="" tvg-country="IT" group-title="Italy",Super TV Brescia
 http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
-#EXTINF:-1 tvg-name="Tele Abruzzo" tvg-id="TeleAbruzzo.it@SD" tvg-country="IT" group-title="Italy",Tele Abruzzo
+#EXTINF:-1 tvg-name="Tele Abruzzo" tvg-logo="https://i.imgur.com/XymK2PR.png" tvg-id="TeleAbruzzo.it@SD" tvg-country="IT" group-title="Italy",Tele Abruzzo
 http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8
-#EXTINF:-1 tvg-name="Tele One 16" tvg-id="TeleOne16.it@SD" tvg-country="IT" group-title="Italy",Tele One 16
+#EXTINF:-1 tvg-name="Tele One 16" tvg-logo="https://i.imgur.com/9trB6mj.png" tvg-id="TeleOne16.it@SD" tvg-country="IT" group-title="Italy",Tele One 16
 https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8
-#EXTINF:-1 tvg-name="Tele Quattro" tvg-id="TeleQuattro.it@SD" tvg-country="IT" group-title="Italy",Tele Quattro
+#EXTINF:-1 tvg-name="Tele Quattro" tvg-logo="https://telequattro.medianordest.it/wp-content/uploads/2020/10/T4Logo120.png" tvg-id="TeleQuattro.it@SD" tvg-country="IT" group-title="Italy",Tele Quattro
 https://59d7d6f47d7fc.streamlock.net/telequattro/telequattro/playlist.m3u8
-#EXTINF:-1 tvg-name="Telegela 647" tvg-id="Telegela647.it@SD" tvg-country="IT" group-title="Italy",Telegela 647
+#EXTINF:-1 tvg-name="Telegela 647" tvg-logo="https://i.imgur.com/ppkX45f.png" tvg-id="Telegela647.it@SD" tvg-country="IT" group-title="Italy",Telegela 647
 https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8
-#EXTINF:-1 tvg-name="Telemontecarlo" tvg-id="Telemontecarlo.it@SD" tvg-country="IT" group-title="Italy",Telemontecarlo
+#EXTINF:-1 tvg-name="Telemontecarlo" tvg-logo="https://i.imgur.com/B0NbjcT.png" tvg-id="Telemontecarlo.it@SD" tvg-country="IT" group-title="Italy",Telemontecarlo
 https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Telepace 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/telepace-1-it.png" tvg-id="Telepace1.it@SD" tvg-country="IT" group-title="Italy",Telepace 1
 https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Telepace 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/telepace-2-it.png" tvg-id="Telepace2.it@SD" tvg-country="IT" group-title="Italy",Telepace 2
 https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="Telepace 3" tvg-id="Telepace3.it@SD" tvg-country="IT" group-title="Italy",Telepace 3
+#EXTINF:-1 tvg-name="Telepace 3" tvg-logo="https://i.imgur.com/hE4i2ft.png" tvg-id="Telepace3.it@SD" tvg-country="IT" group-title="Italy",Telepace 3
 https://932y4273djv8-hls-live.mariatvcdn.it/teleradiopace3/d2274c22e9ee09eb2eda01ed0496f8f5.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="Telepace 4" tvg-id="Telepace4.it@SD" tvg-country="IT" group-title="Italy",Telepace 4
+#EXTINF:-1 tvg-name="Telepace 4" tvg-logo="https://i.imgur.com/JKHEL1H.png" tvg-id="Telepace4.it@SD" tvg-country="IT" group-title="Italy",Telepace 4
 https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="TeleSanDomenico" tvg-id="TeleSanDomenico.it@SD" tvg-country="IT" group-title="Italy",TeleSanDomenico
+#EXTINF:-1 tvg-name="TeleSanDomenico" tvg-logo="https://i.imgur.com/l52v9uv.png" tvg-id="TeleSanDomenico.it@SD" tvg-country="IT" group-title="Italy",TeleSanDomenico
 https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="TeleTusciaSabina 2000" tvg-id="TeleTusciaSabina2000.it@SD" tvg-country="IT" group-title="Italy",TeleTusciaSabina 2000
+#EXTINF:-1 tvg-name="TeleTusciaSabina 2000" tvg-logo="https://i.imgur.com/cfexNL9.png" tvg-id="TeleTusciaSabina2000.it@SD" tvg-country="IT" group-title="Italy",TeleTusciaSabina 2000
 http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/playlist.m3u8
-#EXTINF:-1 tvg-name="TR Sport" tvg-id="TRSport.it@SD" tvg-country="IT" group-title="Italy",TR Sport
+#EXTINF:-1 tvg-name="TR Sport" tvg-logo="https://i.imgur.com/ELXmaqg.png" tvg-id="TRSport.it@SD" tvg-country="IT" group-title="Italy",TR Sport
 https://livetr.teleromagna.it/mia/live/playlist.m3u8
-#EXTINF:-1 tvg-name="TV7 Benevento" tvg-id="TV7Benevento.it@SD" tvg-country="IT" group-title="Italy",TV7 Benevento
+#EXTINF:-1 tvg-name="TV7 Benevento" tvg-logo="https://i.imgur.com/VBhVaKB.png" tvg-id="TV7Benevento.it@SD" tvg-country="IT" group-title="Italy",TV7 Benevento
 http://streaming.senecadot.com/live/flv:tv7.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="TV7 Meteo" tvg-id="" tvg-country="IT" group-title="Italy",TV7 Meteo
 https://www.gruppotv7.com:8090/hls/meteo.m3u8
 #EXTINF:-1 tvg-name="TV Campane 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv-campane-1-it.png" tvg-id="TVCampane1.it@SD" tvg-country="IT" group-title="Italy",TV Campane 1
 https://eu1.servers10.com:8081/8032/index.m3u8
-#EXTINF:-1 tvg-name="TV Yes Italia" tvg-id="TVYesItalia.it@SD" tvg-country="IT" group-title="Italy",TV Yes Italia
+#EXTINF:-1 tvg-name="TV Yes Italia" tvg-logo="https://i.imgur.com/3CDxatu.png" tvg-id="TVYesItalia.it@SD" tvg-country="IT" group-title="Italy",TV Yes Italia
 https://stream1.aswifi.it/radioyes/live/index.m3u8
-#EXTINF:-1 tvg-name="Video Rola" tvg-id="VideoRola.it@SD" tvg-country="IT" group-title="Italy",Video Rola [GEO]
+#EXTINF:-1 tvg-name="Video Rola" tvg-logo="https://i.imgur.com/9w54eVy.png" tvg-id="VideoRola.it@SD" tvg-country="IT" group-title="Italy",Video Rola [GEO]
 https://d3b2epqdk0p7vd.cloudfront.net/out/v1/8a448b5e16384af4a3c8146a7b049c32/index.m3u8
-#EXTINF:-1 tvg-name="Visual Radio" tvg-id="VisualRadio.it@SD" tvg-country="IT" group-title="Italy",Visual Radio
+#EXTINF:-1 tvg-name="Visual Radio" tvg-logo="https://i.imgur.com/ah14ah0.png" tvg-id="VisualRadio.it@SD" tvg-country="IT" group-title="Italy",Visual Radio
 http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8
 #EXTINF:-1 tvg-name="Rai Sudtirol" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sudtirol-it.png" tvg-id="RaiSudtirol.it@SD" tvg-country="IT" group-title="Italy",Rai Sudtirol
 https://wzstreaming.rai.it/TVlive/smil:liveStream.smil/index.m3u8
-#EXTINF:-1 tvg-name="Romantica TV" tvg-id="RomanticaTV.it@SD" tvg-country="IT" group-title="Italy",Romantica TV
+#EXTINF:-1 tvg-name="Romantica TV" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Romantica%20TV.jpeg" tvg-id="RomanticaTV.it@SD" tvg-country="IT" group-title="Italy",Romantica TV
 https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8
 
 #EXTINF:-1 tvg-name="כאן 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
-http://stream.mcquack.net/293/index.m3u8
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png" tvg-id="קשת.il" group-title="Israel",קשת 12
 http://stream.mcquack.net/294/index.m3u8
-#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f3/Reshet13Logo2025.svg/1280px-Reshet13Logo2025.svg.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
+#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://i.imgur.com/eFM3bTq.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
 http://stream.mcquack.net/295/index.m3u8
 #EXTINF:-1 tvg-name="HOT Zone" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png" tvg-id="HOTZone.il" tvg-country="IL" group-title="Israel",HOT Zone
 http://stream.mcquack.net/379/index.m3u8
-#EXTINF:-1 tvg-name="HOT Drama" tvg-id="HOTDrama.il" tvg-country="IL" group-title="Israel",HOT Drama
+#EXTINF:-1 tvg-name="HOT Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" tvg-id="HOTDrama.il" tvg-country="IL" group-title="Israel",HOT Drama
 http://stream.mcquack.net/381/index.m3u8
-#EXTINF:-1 tvg-name="כאן חינוכית" tvg-id="כאן.חינוכית.il" tvg-country="IL" group-title="Israel",כאן חינוכית
+#EXTINF:-1 tvg-name="Kan Educational" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png" tvg-id="כאן.חינוכית.il" tvg-country="IL" group-title="Israel",Kan Educational
 http://stream.mcquack.net/378/index.m3u8
 #EXTINF:-1 tvg-name="Good Life" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png" tvg-id="GOOD.LIFE+.il" tvg-country="IL" group-title="Israel",Good Life
 http://stream.mcquack.net/47/index.m3u8
@@ -897,21 +897,21 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 tvg-name="DELUXE MUSIC DANCE BY KONTOR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/500px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" tvg-id="DELUXE.MUSIC.de" tvg-country="DE" group-title="Music",DELUXE MUSIC DANCE BY KONTOR
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
-#EXTINF:-1 tvg-name="Bibel TV Musik" tvg-id="BibelTVMusik.de@SD" tvg-country="DE" group-title="Music",Bibel TV Musik
+#EXTINF:-1 tvg-name="Bibel TV Musik" tvg-logo="https://i.imgur.com/yIqOcP5.png" tvg-id="BibelTVMusik.de@SD" tvg-country="DE" group-title="Music",Bibel TV Musik
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-name="DASDING 90.8" tvg-id="DASDING908.de@SD" tvg-country="DE" group-title="Music",DASDING 90.8
+#EXTINF:-1 tvg-name="DASDING 90.8" tvg-logo="https://i.imgur.com/BmklHs8.png" tvg-id="DASDING908.de@SD" tvg-country="DE" group-title="Music",DASDING 90.8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-name="Deluxe Lounge" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/deluxe-lounge-de.png" tvg-id="DeluxeLounge.de@SD" tvg-country="DE" group-title="Music",Deluxe Lounge
 https://jmp2.uk/stvp-CHAJ0500413A
 #EXTINF:-1 tvg-name="DMF" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/dmf-de.png" tvg-id="DMF.de" tvg-country="DE" group-title="Music",DMF
 https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8
-#EXTINF:-1 tvg-name="Magenta Musik 360" tvg-id="MagentaMusik360.de@SD" tvg-country="DE" group-title="Music",Magenta Musik 360
+#EXTINF:-1 tvg-name="Magenta Musik 360" tvg-logo="https://i.imgur.com/R74gG7U.png" tvg-id="MagentaMusik360.de@SD" tvg-country="DE" group-title="Music",Magenta Musik 360 [GEO]
 https://streaming.magentamusik.de/csm/573870/magentamusik1/index.m3u8
-#EXTINF:-1 tvg-name="SWR 3 Visual Radio" tvg-id="SWR3VisualRadio.de@SD" tvg-country="DE" group-title="Music",SWR 3 Visual Radio
+#EXTINF:-1 tvg-name="SWR 3 Visual Radio" tvg-logo="https://i.imgur.com/PxSgxRO.jpg" tvg-id="SWR3VisualRadio.de@SD" tvg-country="DE" group-title="Music",SWR 3 Visual Radio
 https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 #EXTINF:-1 tvg-name="Volksmusik TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/volksmusik-tv-de.png" tvg-id="VolksmusikTV.de@SD" tvg-country="DE" group-title="Music",Volksmusik TV
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
-#EXTINF:-1 tvg-name="WDR 1 Live" tvg-id="WDR1Live.de@SD" tvg-country="DE" group-title="Music",WDR 1 Live
+#EXTINF:-1 tvg-name="WDR 1 Live" tvg-logo="https://i.imgur.com/RbqDMYx.png" tvg-id="WDR1Live.de@SD" tvg-country="DE" group-title="Music",WDR 1 Live
 https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 #EXTINF:-1 tvg-name="RTL 102.5" tvg-logo="https://i.imgur.com/KdissvS.png" tvg-id="RTL.102.5.HD.it" tvg-country="IT" group-title="Music",RTL 102.5
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8
@@ -925,7 +925,7 @@ https://live02-seg.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio KISS KISS TV" tvg-logo="https://i.imgur.com/UTStxDW.png" tvg-id="KissKissTV.it" tvg-country="IT" group-title="Music",Radio KISS KISS TV
 https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Rai Radio 2 Visual Radio" tvg-logo="https://i.imgur.com/nVBet0h.png" tvg-id="RaiRadio2.it" tvg-country="IT" group-title="Music",Rai Radio 2 Visual Radio
+#EXTINF:-1 tvg-name="Rai Radio 2 Visual Radio" tvg-logo="https://i.imgur.com/nVBet0h.png" tvg-id="RaiRadio2.it" tvg-country="IT" group-title="Music",Rai Radio 2 Visual Radio [GEO]
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-name="RTL 102.5 Traffic" tvg-logo="https://i.imgur.com/GH7byqm.jpeg" tvg-id="RTL1025Traffic.it" tvg-country="IT" group-title="Music",RTL 102.5 Traffic
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8
@@ -961,49 +961,49 @@ https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8
 https://streamcdng14-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S82929343/cAcsSu4Wecc5/chunklist_b5256000.m3u8
 #EXTINF:-1 tvg-name="7 RadioVisione" tvg-id="7RadioVisione.it@HD" tvg-country="IT" group-title="Music",7 RadioVisione
 https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="51 Radio TV" tvg-id="51RadioTV.it@SD" tvg-country="IT" group-title="Music",51 Radio TV
+#EXTINF:-1 tvg-name="51 Radio TV" tvg-logo="https://www.51news.it/images/loghi/logo_tv_radio_51news.png" tvg-id="51RadioTV.it@SD" tvg-country="IT" group-title="Music",51 Radio TV
 http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
-#EXTINF:-1 tvg-name="70-80 TV (1080P)" tvg-id="7080TV.it@SD" tvg-country="IT" group-title="Music",70-80 TV (1080P)
+#EXTINF:-1 tvg-name="70-80 TV (1080P)" tvg-logo="https://i.imgur.com/y4kNV3Q.png" tvg-id="7080TV.it@SD" tvg-country="IT" group-title="Music",70-80 TV (1080P)
 https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
-#EXTINF:-1 tvg-name="Euro Indie Music Chart TV" tvg-id="EuroIndieMusicChartTV.it@SD" tvg-country="IT" group-title="Music",Euro Indie Music Chart TV
+#EXTINF:-1 tvg-name="Euro Indie Music Chart TV" tvg-logo="https://i.imgur.com/lF0iofX.png" tvg-id="EuroIndieMusicChartTV.it@SD" tvg-country="IT" group-title="Music",Euro Indie Music Chart TV
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1 tvg-name="FM ITALIA" tvg-id="FMITALIA.it@SD" tvg-country="IT" group-title="Music",FM ITALIA
+#EXTINF:-1 tvg-name="FM ITALIA" tvg-logo="https://i.imgur.com/54CO2u9.png" tvg-id="FMITALIA.it@SD" tvg-country="IT" group-title="Music",FM ITALIA
 https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Kiss Kiss Napoli TV" tvg-id="KissKissNapoliTV.it@SD" tvg-country="IT" group-title="Music",Kiss Kiss Napoli TV
+#EXTINF:-1 tvg-name="Kiss Kiss Napoli TV" tvg-logo="https://i.imgur.com/RsGiBwE.png" tvg-id="KissKissNapoliTV.it@SD" tvg-country="IT" group-title="Music",Kiss Kiss Napoli TV
 https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Capital TiVu" tvg-id="RadioCapitalTiVu.it@HD" tvg-country="IT" group-title="Music",Radio Capital TiVu
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Freccia TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-freccia-it.png" tvg-id="Radiofreccia.it@SD" tvg-country="IT" group-title="Music",Radio Freccia TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
-#EXTINF:-1 tvg-name="Radio Ibiza TV" tvg-id="RadioIbizaTV.it@SD" tvg-country="IT" group-title="Music",Radio Ibiza TV
+#EXTINF:-1 tvg-name="Radio Ibiza TV" tvg-logo="https://i.imgur.com/KfFqYQi.png" tvg-id="RadioIbizaTV.it@SD" tvg-country="IT" group-title="Music",Radio Ibiza TV
 https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Iglesias" tvg-id="RadioIglesias.it@SD" tvg-country="IT" group-title="Music",Radio Iglesias
+#EXTINF:-1 tvg-name="Radio Iglesias" tvg-logo="https://i.imgur.com/2OXQpZM.png" tvg-id="RadioIglesias.it@SD" tvg-country="IT" group-title="Music",Radio Iglesias
 http://wms.shared.streamshow.it/visualradio/mp4:visualradio/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Iglesias Sardegna" tvg-id="RadioIglesiasSardegna.it@SD" tvg-country="IT" group-title="Music",Radio Iglesias Sardegna
+#EXTINF:-1 tvg-name="Radio Iglesias Sardegna" tvg-logo="https://i.imgur.com/KDtVpLl.png" tvg-id="RadioIglesiasSardegna.it@SD" tvg-country="IT" group-title="Music",Radio Iglesias Sardegna
 https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Number One" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-number-one-tv-it.png" tvg-id="RadioNumberOne.it@SD" tvg-country="IT" group-title="Music",Radio Number One
 https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Studio Delta TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-studio-delta-it.png" tvg-id="RadioStudioDeltaTV.it@SD" tvg-country="IT" group-title="Music",Radio Studio Delta TV
 https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Taormina Sicilia" tvg-id="RadioTaorminaSicilia.it@SD" tvg-country="IT" group-title="Music",Radio Taormina Sicilia
+#EXTINF:-1 tvg-name="Radio Taormina Sicilia" tvg-logo="https://i.imgur.com/SrhtocV.png" tvg-id="RadioTaorminaSicilia.it@SD" tvg-country="IT" group-title="Music",Radio Taormina Sicilia
 https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Zeta TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-zeta-it.png" tvg-id="RadioZeta.it@SD" tvg-country="IT" group-title="Music",Radio Zeta TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Best" tvg-id="RTL1025Best.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Best
+#EXTINF:-1 tvg-name="RTL 102.5 Best" tvg-logo="https://i.imgur.com/9PNlbaq.png" tvg-id="RTL1025Best.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Best
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Bro&Sis" tvg-id="RTL1025BroSis.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Bro&Sis
+#EXTINF:-1 tvg-name="RTL 102.5 Bro&Sis" tvg-logo="https://i.imgur.com/EWbK4XZ.png" tvg-id="RTL1025BroSis.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Bro&Sis
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Caliente" tvg-id="RTL1025Caliente.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Caliente
+#EXTINF:-1 tvg-name="RTL 102.5 Caliente" tvg-logo="https://i.imgur.com/P0zsi6I.png" tvg-id="RTL1025Caliente.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Caliente
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Disco" tvg-id="RTL1025Disco.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Disco
+#EXTINF:-1 tvg-name="RTL 102.5 Disco" tvg-logo="https://i.imgur.com/JA1OPrz.png" tvg-id="RTL1025Disco.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Disco
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8
-#EXTINF:-1 tvg-name="RTL 102.5 Napulè" tvg-id="RTL1025Napule.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Napulè
+#EXTINF:-1 tvg-name="RTL 102.5 Napulè" tvg-logo="https://i.imgur.com/HFPw1YW.png" tvg-id="RTL1025Napule.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 Napulè
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8
 #EXTINF:-1 tvg-name="RTL 102.5 TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rtl-1025-it.png" tvg-id="RTL1025TV.it@SD" tvg-country="IT" group-title="Music",RTL 102.5 TV
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
-#EXTINF:-1 tvg-name="Stereo 5 TV" tvg-id="Stereo5TV.it@SD" tvg-country="IT" group-title="Music",Stereo 5 TV
+#EXTINF:-1 tvg-name="Stereo 5 TV" tvg-logo="https://i.imgur.com/sCDcYFW.png" tvg-id="Stereo5TV.it@SD" tvg-country="IT" group-title="Music",Stereo 5 TV
 https://stream1.aswifi.it/stereo5/live/index.m3u8
-#EXTINF:-1 tvg-name="Visual Radio" tvg-id="VisualRadio.it@SD" tvg-country="IT" group-title="Music",Visual Radio
+#EXTINF:-1 tvg-name="Visual Radio" tvg-logo="https://i.imgur.com/ah14ah0.png" tvg-id="VisualRadio.it@SD" tvg-country="IT" group-title="Music",Visual Radio
 http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8
-#EXTINF:-1 tvg-name="Romantica TV" tvg-id="RomanticaTV.it@SD" tvg-country="IT" group-title="Music",Romantica TV
+#EXTINF:-1 tvg-name="Romantica TV" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Romantica%20TV.jpeg" tvg-id="RomanticaTV.it@SD" tvg-country="IT" group-title="Music",Romantica TV
 https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8
