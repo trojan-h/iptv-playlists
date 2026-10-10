@@ -1,8 +1,20 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
 
 #EXTINF:-1 tvg-name="כאן 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
-http://stream.mcquack.net/293/index.m3u8
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png" tvg-id="קשת.il" group-title="Israel",קשת 12
 http://stream.mcquack.net/294/index.m3u8
-#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f3/Reshet13Logo2025.svg/1280px-Reshet13Logo2025.svg.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
+#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://i.imgur.com/eFM3bTq.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
 http://stream.mcquack.net/295/index.m3u8
+#EXTINF:-1 tvg-name="HOT Zone" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png" tvg-id="HOTZone.il" tvg-country="IL" group-title="Israel",HOT Zone
+http://stream.mcquack.net/379/index.m3u8
+#EXTINF:-1 tvg-name="HOT Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" tvg-id="HOTDrama.il" tvg-country="IL" group-title="Israel",HOT Drama
+http://stream.mcquack.net/381/index.m3u8
+#EXTINF:-1 tvg-name="Kan Educational" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png" tvg-id="כאן.חינוכית.il" tvg-country="IL" group-title="Israel",Kan Educational
+http://stream.mcquack.net/378/index.m3u8
+#EXTINF:-1 tvg-name="Good Life" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png" tvg-id="GOOD.LIFE+.il" tvg-country="IL" group-title="Israel",Good Life
+http://stream.mcquack.net/47/index.m3u8
+#EXTINF:-1 tvg-name="Hop!" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hop-il.png" tvg-id="Hop.il@SD" tvg-country="IL" group-title="Israel",Hop!
+http://stream.mcquack.net/44/index.m3u8
+#EXTINF:-1 tvg-name="Yes Movies Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/yes-movies-action-il.png" tvg-id="YesMoviesAction.il@SD" tvg-country="IL" group-title="Israel",Yes Movies Action
+http://stream.mcquack.net/380/index.m3u8
