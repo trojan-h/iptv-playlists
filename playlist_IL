@@ -1,11 +1,14 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
 
+
 #EXTINF:-1 tvg-name="כאן 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png" tvg-id="כאן.11.il" tvg-country="IL" group-title="Israel",כאן 11
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png" tvg-id="קשת.il" group-title="Israel",קשת 12
+#EXTINF:-1 tvg-name="קשת 12" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png" tvg-id="קשת.il" tvg-country="IL" group-title="Israel",קשת 12
 http://stream.mcquack.net/294/index.m3u8
-#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://i.imgur.com/eFM3bTq.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
+#EXTINF:-1 tvg-name="רשת 13" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/f3/Reshet13Logo2025.svg/1280px-Reshet13Logo2025.svg.png" tvg-id="רשת.il" tvg-country="IL" group-title="Israel",רשת 13
 http://stream.mcquack.net/295/index.m3u8
+#EXTINF:-1 tvg-name="Kan Kids" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/kan-kids-il.png" tvg-id="כאן.חינוכית.il" tvg-country="IL" group-title="Israel",Kan Kids
+https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
 #EXTINF:-1 tvg-name="HOT Zone" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png" tvg-id="HOTZone.il" tvg-country="IL" group-title="Israel",HOT Zone
 http://stream.mcquack.net/379/index.m3u8
 #EXTINF:-1 tvg-name="HOT Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" tvg-id="HOTDrama.il" tvg-country="IL" group-title="Israel",HOT Drama
@@ -14,7 +17,29 @@ http://stream.mcquack.net/381/index.m3u8
 http://stream.mcquack.net/378/index.m3u8
 #EXTINF:-1 tvg-name="Good Life" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png" tvg-id="GOOD.LIFE+.il" tvg-country="IL" group-title="Israel",Good Life
 http://stream.mcquack.net/47/index.m3u8
+#EXTINF:-1 tvg-name="HOT3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot3-il.png" tvg-id="HOT3.il@SD" tvg-country="IL" group-title="Israel",HOT3
+http://s08.wsbof.com:8090/s/dc2d537d/hot3-hd-il.m3u8
+#EXTINF:-1 tvg-name="HOT8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot8-il.png" tvg-id="HOT8.il@SD" tvg-country="IL" group-title="Israel",HOT8
+http://s08.wsbof.com:8090/s/dc2d537d/hot-8-il-hd.m3u8
+#EXTINF:-1 tvg-name="HOT Cinema 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-cinema1-il.png" tvg-id="HOTCinema1.il@SD" tvg-country="IL" group-title="Israel",HOT Cinema 1
+http://s08.wsbof.com:8090/s/dc2d537d/hot-cinema1-il.m3u8
 #EXTINF:-1 tvg-name="Hop!" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hop-il.png" tvg-id="Hop.il@SD" tvg-country="IL" group-title="Israel",Hop!
 http://stream.mcquack.net/44/index.m3u8
 #EXTINF:-1 tvg-name="Yes Movies Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/yes-movies-action-il.png" tvg-id="YesMoviesAction.il@SD" tvg-country="IL" group-title="Israel",Yes Movies Action
 http://stream.mcquack.net/380/index.m3u8
+#EXTINF:-1 tvg-name="הישראלים (Kanal 15)" tvg-logo="" tvg-id="" tvg-country="IL" group-title="Israel",הישראלים (Kanal 15)
+http://stream.mcquack.net/45/index.m3u8
+#EXTINF:-1 tvg-name="ערוץ 14 (Kanal 14)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel14-il.png" tvg-id="ערוץ.14.HD.il" tvg-country="IL" group-title="Israel",ערוץ 14 (Kanal 14)
+http://stream.mcquack.net/454/index.m3u8
+#EXTINF:-1 tvg-name="כנסת 99 (Knesset)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/knesset-channel-il.png" tvg-id="ערוץ.הכנסת.il" tvg-country="IL" group-title="Israel",כנסת 99 (Knesset)
+http://stream.mcquack.net/48/index.m3u8
+#EXTINF:-1 tvg-name="ויוה פרימיום (Viva Premium)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/viva-premium-il.png" tvg-id="ויוה.פרימיום.il" tvg-country="IL" group-title="Israel",ויוה פרימיום (Viva Premium)
+http://stream.mcquack.net/43/index.m3u8
+#EXTINF:-1 tvg-name="ערוץ 24 (Kanal 24)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel-24-il.png" tvg-id="ערוץ.24.בשידור.חי.il" tvg-country="IL" group-title="Israel",ערוץ 24 (Kanal 24)
+http://stream.mcquack.net/42/index.m3u8
+#EXTINF:-1 tvg-name="הערוץ הים תיכוני (Yam Tichoni)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/mediterranean-channel-il.png" tvg-id="ים.תיכוני.il" tvg-country="IL" group-title="Israel",הערוץ הים תיכוני (Yam Tichoni)
+http://stream.mcquack.net/46/index.m3u8
+#EXTINF:-1 tvg-name="זום (Zoom)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/zoom-il.png" tvg-id="" tvg-country="IL" group-title="Israel",זום (Zoom)
+http://stream.mcquack.net/377/index.m3u8
+#EXTINF:-1 tvg-name="ערוץ 9 (Kanal 9)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel9-il.png" tvg-id="ערוץ.9.il" tvg-country="IL" group-title="Israel",ערוץ 9 (Kanal 9)
+http://stream.mcquack.net/20/index.m3u8
