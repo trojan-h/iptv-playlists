@@ -111,7 +111,6 @@ img { display: block; }
 }
 .stern { position: absolute; top: 8px; inset-inline-start: 10px; font-size: 14px; color: #ffd60a; text-shadow: 0 1px 3px rgba(0,0,0,.6); }
 .leer { padding: 60px var(--rand); color: var(--text-leise); font-size: 18px; }
-.fuss { padding: 8px var(--rand) 32px; color: var(--text-blass); font-size: 13px; line-height: 1.5; }
 
 /* Player */
 .spieler { position: fixed; inset: 0; background: #000; z-index: 20; display: none; }
@@ -180,6 +179,38 @@ img { display: block; }
 .lade.sichtbar { display: block; }
 @keyframes dreh { to { transform: rotate(360deg); } }
 
+/* Laufende Sendung (Kopf und Einblendung) */
+.sendung { margin-top: 10px; max-width: 640px; }
+.sendung .titel { font-size: clamp(17px, 1.9vw, 24px); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: start; }
+.sendung .zeit, .sendung .danach { color: var(--text-leise); font-size: clamp(13px, 1.2vw, 16px); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sendung.klein { margin-top: 6px; }
+.sendung.klein .titel { font-size: clamp(14px, 1.4vw, 18px); font-weight: 500; color: var(--text); }
+/* Zeitachsen laufen auch auf Hebraeisch von links nach rechts - wie in der App */
+.fortschritt {
+  direction: ltr; height: 6px; border-radius: 999px; margin-top: 10px; max-width: 420px; overflow: hidden;
+  background: rgba(255, 255, 255, .16); border: 1px solid rgba(255, 255, 255, .10);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+}
+.fortschritt span { display: block; height: 100%; background: #f5f5f7; border-radius: 999px; }
+
+/* Programmuebersicht eines Senders */
+.programm { position: fixed; inset: 0; z-index: 30; display: none; background: rgba(0, 0, 0, .55); }
+.programm.offen { display: grid; place-items: center; padding: calc(env(safe-area-inset-top) + 16px) 16px calc(env(safe-area-inset-bottom) + 16px); }
+.blatt { width: min(680px, 100%); max-height: 100%; border-radius: 26px; display: flex; flex-direction: column; overflow: hidden; }
+.blatt-kopf { display: flex; align-items: center; gap: 14px; padding: 18px 22px 10px; }
+.blatt-kopf h3 { margin: 0; flex: 1; font-size: 22px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: start; }
+.blatt-liste { overflow-y: auto; padding: 4px 12px 16px; }
+.tag { color: var(--text-leise); font-size: 14px; font-weight: 700; padding: 14px 10px 6px; }
+.eintrag { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; width: 100%; border: 0; background: none; cursor: pointer;
+  text-align: start; padding: 10px; border-radius: 14px; transition: background .15s ease; }
+.eintrag:hover, .eintrag:focus-visible { background: rgba(255, 255, 255, .12); outline: none; }
+.eintrag.laeuft { background: rgba(255, 255, 255, .9); color: #111; }
+.eintrag.laeuft .um { color: rgba(0, 0, 0, .6); }
+.eintrag .um { font-variant-numeric: tabular-nums; color: var(--text-leise); font-weight: 600; direction: ltr; text-align: end; }
+.eintrag .t { font-weight: 600; grid-column: 2; grid-row: 1; }
+.eintrag .b { grid-column: 2; font-size: 14px; color: inherit; opacity: .75; display: none; line-height: 1.45; }
+.eintrag.auf .b { display: block; }
+
 .hinweis {
   position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 24px); transform: translate(-50%, 20px);
   padding: 14px 22px; border-radius: 18px; max-width: min(560px, 90vw); font-size: 15px; line-height: 1.4;
@@ -207,15 +238,16 @@ img { display: block; }
   <div class="text">
     <p class="name" id="kopfName" dir="auto">…</p>
     <div class="unterzeile" id="kopfZeile"></div>
+    <div class="sendung" id="kopfSendung"></div>
     <div class="knoepfe">
       <button class="knopf haupt" id="kopfAnsehen">▶ צפייה</button>
       <button class="knopf" id="kopfFavorit">☆ מועדף</button>
+      <button class="knopf" id="kopfProgramm">לוח שידורים</button>
     </div>
   </div>
 </section>
 
 <main class="reihen" id="reihen"></main>
-<p class="fuss" id="fuss"></p>
 
 <div class="spieler" id="spieler" aria-hidden="true">
   <video id="video" playsinline></video>
@@ -230,8 +262,10 @@ img { display: block; }
     <div class="mitte">
       <div class="name" id="osdName" dir="auto"></div>
       <div class="info" id="osdInfo"></div>
+      <div class="sendung klein" id="osdSendung"></div>
     </div>
     <div class="rechts">
+      <button class="rund" id="osdProgramm" title="לוח שידורים (G)" aria-label="לוח שידורים">🗓</button>
       <button class="rund" id="liste" title="רשימת ערוצים (↑ ↓)" aria-label="רשימת ערוצים">☰</button>
       <button class="rund" id="ton" title="קול (M)" aria-label="קול">🔊</button>
       <button class="rund nur-gross" id="vollbild" title="מסך מלא (F)" aria-label="מסך מלא">⛶</button>
@@ -240,6 +274,16 @@ img { display: block; }
   <div class="senderliste glas" id="senderliste">
     <h3 id="listeTitel">ערוצים</h3>
     <div class="zeilen" id="zeilen"></div>
+  </div>
+</div>
+
+<div class="programm" id="programm" aria-hidden="true">
+  <div class="blatt glas" role="dialog" aria-labelledby="programmTitel">
+    <div class="blatt-kopf">
+      <h3 id="programmTitel" dir="auto"></h3>
+      <button class="rund" id="programmZu" aria-label="סגירה">✕</button>
+    </div>
+    <div class="blatt-liste" id="programmListe"></div>
   </div>
 </div>
 
@@ -275,7 +319,7 @@ const KATEGORIEN = {
 const RTL = document.documentElement.dir === "rtl";
 const REIHENFOLGE = Object.keys(KATEGORIEN);
 // Rueckfallebene, falls die Liste nicht zu laden ist (Stand beim Erstellen)
-const EINGEBAUT = [{"name": "כאן 11", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png", "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8", "kat": "General"}, {"name": "קשת 12", "logo": "https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png", "url": "http://stream.mcquack.net/294/index.m3u8", "kat": "General"}, {"name": "רשת 13", "logo": "https://i.imgur.com/eFM3bTq.png", "url": "https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/profile/5/profileManifest.m3u8", "kat": "General"}, {"name": "HOT Zone", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png", "url": "http://stream.mcquack.net/379/index.m3u8", "kat": "Movies"}, {"name": "HOT Drama", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png", "url": "http://stream.mcquack.net/381/index.m3u8", "kat": "Movies"}, {"name": "Kan Educational", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png", "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8", "kat": "Kids"}, {"name": "Good Life", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png", "url": "http://stream.mcquack.net/47/index.m3u8", "kat": "Lifestyle"}, {"name": "Hop!", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hop-il.png", "url": "http://stream.mcquack.net/44/index.m3u8", "kat": "Kids"}, {"name": "Yes Movies Action", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/yes-movies-action-il.png", "url": "http://stream.mcquack.net/380/index.m3u8", "kat": "Movies"}, {"name": "ערוץ 14 (Kanal 14)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel14-il.png", "url": "https://ch14.medonecdn.net/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8", "kat": "General"}, {"name": "i24NEWS עברית", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/i24-news-il.png", "url": "https://i24newshebrew-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8", "kat": "News"}, {"name": "כנסת 99 (Knesset)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/knesset-channel-il.png", "url": "http://stream.mcquack.net/48/index.m3u8", "kat": "News"}, {"name": "ויוה פרימיום (Viva Premium)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/viva-premium-il.png", "url": "http://stream.mcquack.net/43/index.m3u8", "kat": "Movies"}, {"name": "ערוץ 24 (Kanal 24)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel-24-il.png", "url": "http://stream.mcquack.net/42/index.m3u8", "kat": "Music"}, {"name": "ערוץ 16 (Kanal 16)", "logo": "https://ch16israel.vod.immergo.tv/ch16israel/uploaded/bfbd4781-67a7-437e-8f7e-898a5cbc4ab4.png", "url": "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8", "kat": "General"}, {"name": "ערוץ הכלכלה (Wirtschaft)", "logo": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/fcae54b630b544d882529d959580077b/version/0", "url": "https://n-121-7.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8", "kat": "News"}, {"name": "הערוץ הים תיכוני (Yam Tichoni)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/mediterranean-channel-il.png", "url": "http://stream.mcquack.net/46/index.m3u8", "kat": "Music"}, {"name": "זום (Zoom)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/zoom-il.png", "url": "http://stream.mcquack.net/377/index.m3u8", "kat": "Kids"}, {"name": "ערוץ 9 (Kanal 9)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel9-il.png", "url": "http://stream.mcquack.net/20/index.m3u8", "kat": "General"}];
+const EINGEBAUT = [{"name": "כאן 11", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png", "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8", "kat": "General", "id": "channel11.il"}, {"name": "קשת 12", "logo": "https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png", "url": "http://stream.mcquack.net/294/index.m3u8", "kat": "General", "id": "channel12.il"}, {"name": "רשת 13", "logo": "https://i.imgur.com/eFM3bTq.png", "url": "https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/profile/5/profileManifest.m3u8", "kat": "General", "id": "channel13.il"}, {"name": "HOT Zone", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png", "url": "http://stream.mcquack.net/379/index.m3u8", "kat": "Movies", "id": "hotzone.il"}, {"name": "HOT Drama", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png", "url": "http://stream.mcquack.net/381/index.m3u8", "kat": "Movies", "id": "HOTDrama.il"}, {"name": "Kan Educational", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png", "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8", "kat": "Kids", "id": "kaneducation.il"}, {"name": "Good Life", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png", "url": "http://stream.mcquack.net/47/index.m3u8", "kat": "Lifestyle", "id": "goodlifeplus.il"}, {"name": "Hop!", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hop-il.png", "url": "http://stream.mcquack.net/44/index.m3u8", "kat": "Kids", "id": "Hop.il@SD"}, {"name": "Yes Movies Action", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/yes-movies-action-il.png", "url": "http://stream.mcquack.net/380/index.m3u8", "kat": "Movies", "id": "yesmoviesaction.il"}, {"name": "ערוץ 14 (Kanal 14)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel14-il.png", "url": "https://ch14.medonecdn.net/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8", "kat": "General", "id": "channel14.il"}, {"name": "i24NEWS עברית", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/i24-news-il.png", "url": "https://i24newshebrew-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8", "kat": "News", "id": "i24hebrew.il"}, {"name": "כנסת 99 (Knesset)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/knesset-channel-il.png", "url": "http://stream.mcquack.net/48/index.m3u8", "kat": "News", "id": "knesset.il"}, {"name": "ויוה פרימיום (Viva Premium)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/viva-premium-il.png", "url": "http://stream.mcquack.net/43/index.m3u8", "kat": "Movies", "id": "vivapremium.il"}, {"name": "ערוץ 24 (Kanal 24)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel-24-il.png", "url": "http://stream.mcquack.net/42/index.m3u8", "kat": "Music", "id": "tve.il"}, {"name": "ערוץ 16 (Kanal 16)", "logo": "https://ch16israel.vod.immergo.tv/ch16israel/uploaded/bfbd4781-67a7-437e-8f7e-898a5cbc4ab4.png", "url": "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8", "kat": "General", "id": ""}, {"name": "ערוץ הכלכלה (Wirtschaft)", "logo": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/fcae54b630b544d882529d959580077b/version/0", "url": "https://n-121-7.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8", "kat": "News", "id": "finance.il"}, {"name": "הערוץ הים תיכוני (Yam Tichoni)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/mediterranean-channel-il.png", "url": "http://stream.mcquack.net/46/index.m3u8", "kat": "Music", "id": "yamtichoni.il"}, {"name": "זום (Zoom)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/zoom-il.png", "url": "http://stream.mcquack.net/377/index.m3u8", "kat": "Kids", "id": "zoom.il"}, {"name": "ערוץ 9 (Kanal 9)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel9-il.png", "url": "http://stream.mcquack.net/20/index.m3u8", "kat": "General", "id": "channel9.il"}];
 
 // Auf https (GitHub Pages) blockiert jeder Browser unverschluesselte Streams
 const SICHER = location.protocol === "https:";
@@ -309,7 +353,7 @@ function lies(text) {
     } else if (offen) {
       const teile = (offen.attr["group-title"] || "").split(";").map((t) => t.trim()).filter(Boolean);
       if (teile[0] === GRUPPE) {
-        liste.push({ name: offen.name, logo: offen.attr["tvg-logo"] || "", url: z, kat: teile[1] || "" });
+        liste.push({ name: offen.name, logo: offen.attr["tvg-logo"] || "", url: z, kat: teile[1] || "", id: offen.attr["tvg-id"] || "" });
       }
       offen = null;
     }
@@ -335,6 +379,97 @@ function vorbereiten(liste) {
     return { ...c, url, spielbar: !(SICHER && url.startsWith("http:")) };
   });
 }
+
+// --- Programm (EPG) -------------------------------------------------------
+// epg_israel.json legt eine GitHub Action alle 6 Stunden ins Repo
+// (epg_israel.py); je tvg-id eine Liste [start, stop, titel, text].
+const EPG_QUELLEN = [
+  "epg_israel.json",
+  "https://raw.githubusercontent.com/trojan-h/iptv-playlists/refs/heads/main/epg_israel.json"
+];
+let epg = {}, epgStand = 0;
+async function epgLaden() {
+  for (const q of EPG_QUELLEN) {
+    try {
+      const r = await fetch(q, { cache: "no-cache" });
+      if (!r.ok) continue;
+      const d = await r.json();
+      if (d && d.sender) { epg = d.sender; epgStand = d.stand || 0; return true; }
+    } catch (e) { /* naechste Quelle */ }
+  }
+  return false;
+}
+const jetztSek = () => Date.now() / 1000;
+function sendungen(c) { return (c && c.id && epg[c.id]) || []; }
+function laufend(c, t = jetztSek()) { return sendungen(c).find((p) => p[0] <= t && t < p[1]) || null; }
+function danach(c, t = jetztSek()) { return sendungen(c).find((p) => p[0] > t) || null; }
+
+// Alle Uhrzeiten in israelischer Zeit, egal wo man schaut
+const ZONE = "Asia/Jerusalem";
+const fmtUhr = new Intl.DateTimeFormat("he-IL", { hour: "2-digit", minute: "2-digit", timeZone: ZONE });
+const uhr = (s) => fmtUhr.format(new Date(s * 1000));
+// Zeitspannen links nach rechts einschliessen, sonst dreht Hebraeisch sie um
+const spanne = (a, b) => `<span dir="ltr">${uhr(a)}–${uhr(b)}</span>`;
+function sendungHtml(c, klein) {
+  const p = laufend(c);
+  // Ohne geladenes Programm nichts sagen; Sender ohne Eintraege: kurzer Hinweis
+  if (!p) return (!epgStand || !c.id || sendungen(c).length) ? "" : `<div class="zeit">אין מידע על התוכנית</div>`;
+  const anteil = Math.max(0, Math.min(100, (jetztSek() - p[0]) / (p[1] - p[0]) * 100));
+  const n = danach(c);
+  return `<div class="titel" dir="auto">${esc(p[2])}</div>
+    ${klein ? "" : `<div class="zeit">${spanne(p[0], p[1])}</div>`}
+    <div class="fortschritt" role="progressbar" aria-valuenow="${Math.round(anteil)}" aria-valuemin="0" aria-valuemax="100"><span style="width:${anteil.toFixed(1)}%"></span></div>
+    ${n && !klein ? `<div class="danach">בהמשך <span dir="ltr">${uhr(n[0])}</span> · <span dir="auto">${esc(n[2])}</span></div>` : ""}`;
+}
+
+// Programmuebersicht: alles ab der laufenden Sendung, nach Tagen
+const fmtTag = new Intl.DateTimeFormat("he-IL", { weekday: "long", day: "numeric", month: "numeric", timeZone: ZONE });
+const fmtDatum = new Intl.DateTimeFormat("en-CA", { timeZone: ZONE });   // 2026-10-16
+function tagName(s) {
+  const d = fmtDatum.format(new Date(s * 1000));
+  if (d === fmtDatum.format(new Date())) return "היום";
+  if (d === fmtDatum.format(new Date(Date.now() + 864e5))) return "מחר";
+  return fmtTag.format(new Date(s * 1000));
+}
+function programmZeigen(c) {
+  const liste = sendungen(c).filter((p) => p[1] > jetztSek());
+  if (!liste.length) { hinweis(`אין לוח שידורים עבור ${c.name}`); return; }
+  $("programmTitel").textContent = c.name;
+  let tag = "", html = "";
+  for (const p of liste) {
+    const t = tagName(p[0]);
+    if (t !== tag) { tag = t; html += `<div class="tag">${esc(t)}</div>`; }
+    const laeuft = p[0] <= jetztSek();
+    html += `<button class="eintrag${laeuft ? " laeuft" : ""}">
+      <span class="um">${uhr(p[0])}</span><span class="t" dir="auto">${esc(p[2])}</span>
+      ${p[3] ? `<span class="b" dir="auto">${esc(p[3])}</span>` : ""}
+    </button>`;
+  }
+  $("programmListe").innerHTML = html;
+  $("programm").classList.add("offen"); $("programm").setAttribute("aria-hidden", "false");
+  const lauf = $("programmListe").querySelector(".laeuft") || $("programmListe").querySelector(".eintrag");
+  if (lauf) { lauf.focus({ preventScroll: true }); lauf.scrollIntoView({ block: "nearest" }); }
+}
+function programmZu() {
+  $("programm").classList.remove("offen"); $("programm").setAttribute("aria-hidden", "true");
+}
+const programmOffen = () => $("programm").classList.contains("offen");
+$("programmListe").addEventListener("click", (e) => { const x = e.target.closest(".eintrag"); if (x) x.classList.toggle("auf"); });
+$("programmZu").addEventListener("click", programmZu);
+$("programm").addEventListener("click", (e) => { if (e.target === $("programm")) programmZu(); });
+$("kopfProgramm").addEventListener("click", () => gewaehlt && programmZeigen(gewaehlt));
+$("osdProgramm").addEventListener("click", (e) => { e.stopPropagation(); if (aktuell) programmZeigen(aktuell); });
+// Vorrang fuer die Uebersicht: Esc schliesst sie, Pfeile bleiben in ihr
+document.addEventListener("keydown", (e) => {
+  if (!programmOffen()) return;
+  if (e.key === "Escape" || e.key === "Backspace") { e.preventDefault(); programmZu(); }
+  else if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+    const z = [...$("programmListe").querySelectorAll(".eintrag")], i = z.indexOf(document.activeElement);
+    const n = z[Math.max(0, Math.min(z.length - 1, i + (e.key === "ArrowDown" ? 1 : -1)))];
+    if (n) { e.preventDefault(); n.focus(); n.scrollIntoView({ block: "nearest" }); }
+  }
+  e.stopImmediatePropagation();
+}, true);
 
 // --- Uebersicht ------------------------------------------------------------
 function katName(k) { return KATEGORIEN[k.toLowerCase()] || k || "ערוצים נוספים"; }
@@ -438,6 +573,8 @@ function kopfZeigen(c) {
   if (c.kat) teile.push(`<span>${esc(katName(c.kat))}</span>`);
   teile.push(c.spielbar ? `<span class="punkt-live">שידור חי</span>` : `<span>רק באפליקציית Zapper ב־Apple TV</span>`);
   $("kopfZeile").innerHTML = teile.join("<span aria-hidden='true'>·</span>");
+  $("kopfSendung").innerHTML = sendungHtml(c, false);
+  $("kopfProgramm").disabled = !sendungen(c).some((p) => p[1] > jetztSek());
   $("kopfAnsehen").disabled = !c.spielbar;
   $("kopfFavorit").textContent = favoriten.includes(c.url) ? "★ מועדף" : "☆ מועדף";
 }
@@ -594,6 +731,8 @@ function osdFuellen() {
   const i = zapListe.indexOf(aktuell);
   if (zapListe.length > 1) teile.push(`<span>${esc(reiheTitel)} · ${i + 1}/${zapListe.length}</span>`);
   $("osdInfo").innerHTML = teile.join("");
+  $("osdSendung").innerHTML = sendungHtml(aktuell, true);
+  $("osdProgramm").style.display = sendungen(aktuell).length ? "" : "none";
 }
 function listeFuellen() {
   $("listeTitel").textContent = reiheTitel;
@@ -695,6 +834,7 @@ document.addEventListener("keydown", (e) => {
       break;
     case "Escape": case "Backspace": e.preventDefault(); schliessen(); break;
     case "f": case "F": vollbild(); break;
+    case "g": case "G": if (aktuell) programmZeigen(aktuell); break;
     case "m": case "M": video.muted = !video.muted; tonAnzeigen(); einblenden(); break;
     case " ": e.preventDefault(); video.paused ? video.play() : video.pause(); einblenden(); break;
     default: einblenden();
@@ -709,16 +849,16 @@ function hinweis(t) {
 
 // --- Start -----------------------------------------------------------------
 (async function () {
-  const { liste, quelle } = await laden();
+  const [{ liste }] = await Promise.all([laden(), epgLaden()]);
   sender = vorbereiten(liste);
   zeichnen();
   kopfZeigen(sender.find((c) => c.spielbar) || sender[0]);
-  const gesperrt = sender.filter((c) => !c.spielbar).length;
-  $("fuss").textContent = [
-    `${sender.length} ערוצים` + (gesperrt ? `, מתוכם ${gesperrt} רק ב־Zapper (לא מוצפנים – הדפדפן חוסם אותם באתר מאובטח)` : ""),
-    quelle ? "רשימה: " + (quelle.startsWith("http") ? "GitHub" : quelle) : "רשימה: עותק מובנה",
-    "מקשים: חצים, Enter,‏ Esc,‏ F (מסך מלא), M (קול) · לחיצה ימנית: מועדף"
-  ].join(" · ");
+  // Fortschritt halbminuetlich, das Programm selbst alle 30 Minuten neu
+  setInterval(() => {
+    if (gewaehlt) { $("kopfSendung").innerHTML = sendungHtml(gewaehlt, false); }
+    if (aktuell && $("spieler").classList.contains("offen")) $("osdSendung").innerHTML = sendungHtml(aktuell, true);
+  }, 30000);
+  setInterval(epgLaden, 30 * 60 * 1000);
 })();
 </script>
 </body>
