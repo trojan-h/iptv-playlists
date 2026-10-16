@@ -724,7 +724,7 @@ http://stream.mcquack.net/379/index.m3u8
 http://stream.mcquack.net/381/index.m3u8
 #EXTINF:-1 tvg-name="Kan Educational" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png" tvg-id="kaneducation.il" tvg-country="IL" group-title="Israel;Kids",כאן חינוכית
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-name="Good Life" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png" tvg-id="goodlifeplus.il" tvg-country="IL" group-title="Israel;Lifestyle",Good Life
+#EXTINF:-1 tvg-name="Good Life" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png" tvg-id="goodlifeplus.il" tvg-country="IL" group-title="Israel;Lifestyle",החיים הטובים
 http://stream.mcquack.net/47/index.m3u8
 #EXTINF:-1 tvg-name="Hop!" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hop-il.png" tvg-id="Hop.il@SD" tvg-country="IL" group-title="Israel;Kids",Hop!
 http://stream.mcquack.net/44/index.m3u8
