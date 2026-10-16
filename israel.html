@@ -145,12 +145,8 @@ img { display: block; }
 }
 .rund:hover, .rund:focus-visible { background: rgba(255,255,255,.9); color: #111; outline: none; transform: scale(1.06); }
 .oben-links { position: absolute; top: calc(env(safe-area-inset-top) + 16px); inset-inline-start: var(--rand); transition: opacity .35s ease; }
-.seite { position: absolute; top: 50%; transform: translateY(-50%); width: 52px; height: 52px; font-size: 24px; transition: opacity .35s ease; }
-.seite.links { inset-inline-start: calc(var(--rand) - 6px); }
-[dir="rtl"] .seite { transform: translateY(-50%) scaleX(-1); }
-.seite.rechts-k { inset-inline-end: calc(var(--rand) - 6px); }
 .verborgen .einblendung { opacity: 0; transform: translateY(24px); pointer-events: none; }
-.verborgen .schatten-unten, .verborgen .oben-links, .verborgen .seite { opacity: 0; pointer-events: none; }
+.verborgen .schatten-unten, .verborgen .oben-links { opacity: 0; pointer-events: none; }
 .verborgen { cursor: none; }
 
 .senderliste {
@@ -222,7 +218,6 @@ img { display: block; }
 @media (prefers-reduced-transparency: reduce) { .glas { -webkit-backdrop-filter: none; backdrop-filter: none; background: #2c2c2e; } }
 @media (max-width: 600px) {
   .kopf .knoepfe .knopf { padding: 10px 18px; }
-  .seite { display: none; }
   .einblendung .rechts .nur-gross { display: none; }
 }
 </style>
@@ -255,8 +250,6 @@ img { display: block; }
   <div class="meldung glas" id="meldung"></div>
   <div class="schatten-unten"></div>
   <div class="oben-links"><button class="rund glas" id="zu" title="חזרה (Esc)" aria-label="חזרה">✕</button></div>
-  <button class="rund glas seite links" id="vorher" title="הערוץ הקודם (→)" aria-label="הערוץ הקודם">‹</button>
-  <button class="rund glas seite rechts-k" id="nachher" title="הערוץ הבא (←)" aria-label="הערוץ הבא">›</button>
   <div class="einblendung glas" id="einblendung">
     <div class="logo-klein" id="osdLogo"></div>
     <div class="mitte">
@@ -317,6 +310,10 @@ const KATEGORIEN = {
 // Die Seite ist hebraeisch und laeuft von rechts nach links: „weiter“ ist
 // links - Pfeiltasten und Wischen werden entsprechend gespiegelt
 const RTL = document.documentElement.dir === "rtl";
+// Safari (Mac, iPhone, iPad - auch Chrome auf dem iPhone ist Safari innen)
+// spielt HLS selbst; ueberall sonst hls.js
+const NATIV = navigator.vendor === "Apple Computer, Inc." &&
+  !!document.createElement("video").canPlayType("application/vnd.apple.mpegurl");
 const REIHENFOLGE = Object.keys(KATEGORIEN);
 // Rueckfallebene, falls die Liste nicht zu laden ist (Stand beim Erstellen)
 const EINGEBAUT = [{"name": "כאן 11", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/3840px-Kan11Logo.svg.png", "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8", "kat": "General", "id": "channel11.il"}, {"name": "קשת 12", "logo": "https://upload.wikimedia.org/wikipedia/he/thumb/f/f0/Keshet12_2018.svg/3840px-Keshet12_2018.svg.png", "url": "http://stream.mcquack.net/294/index.m3u8", "kat": "General", "id": "channel12.il"}, {"name": "רשת 13", "logo": "https://i.imgur.com/eFM3bTq.png", "url": "https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/profile/5/profileManifest.m3u8", "kat": "General", "id": "channel13.il"}, {"name": "HOT Zone", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png", "url": "http://stream.mcquack.net/379/index.m3u8", "kat": "Movies", "id": "hotzone.il"}, {"name": "HOT Drama", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png", "url": "http://stream.mcquack.net/381/index.m3u8", "kat": "Movies", "id": "HOTDrama.il"}, {"name": "Kan Educational", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png", "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8", "kat": "Kids", "id": "kaneducation.il"}, {"name": "Good Life", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/good-life-channel-il.png", "url": "http://stream.mcquack.net/47/index.m3u8", "kat": "Lifestyle", "id": "goodlifeplus.il"}, {"name": "Hop!", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hop-il.png", "url": "http://stream.mcquack.net/44/index.m3u8", "kat": "Kids", "id": "Hop.il@SD"}, {"name": "Yes Movies Action", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/yes-movies-action-il.png", "url": "http://stream.mcquack.net/380/index.m3u8", "kat": "Movies", "id": "yesmoviesaction.il"}, {"name": "ערוץ 14 (Kanal 14)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel14-il.png", "url": "https://ch14.medonecdn.net/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8", "kat": "General", "id": "channel14.il"}, {"name": "i24NEWS עברית", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/i24-news-il.png", "url": "https://i24newshebrew-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8", "kat": "News", "id": "i24hebrew.il"}, {"name": "כנסת 99 (Knesset)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/knesset-channel-il.png", "url": "http://stream.mcquack.net/48/index.m3u8", "kat": "News", "id": "knesset.il"}, {"name": "ויוה פרימיום (Viva Premium)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/viva-premium-il.png", "url": "http://stream.mcquack.net/43/index.m3u8", "kat": "Movies", "id": "vivapremium.il"}, {"name": "ערוץ 24 (Kanal 24)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel-24-il.png", "url": "http://stream.mcquack.net/42/index.m3u8", "kat": "Music", "id": "tve.il"}, {"name": "ערוץ 16 (Kanal 16)", "logo": "https://ch16israel.vod.immergo.tv/ch16israel/uploaded/bfbd4781-67a7-437e-8f7e-898a5cbc4ab4.png", "url": "https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8", "kat": "General", "id": ""}, {"name": "ערוץ הכלכלה (Wirtschaft)", "logo": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/fcae54b630b544d882529d959580077b/version/0", "url": "https://n-121-7.il.cdn-redge.media/livehls/oil/calcala-live/live/channel10/live.livx/playlist.m3u8", "kat": "News", "id": "finance.il"}, {"name": "הערוץ הים תיכוני (Yam Tichoni)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/mediterranean-channel-il.png", "url": "http://stream.mcquack.net/46/index.m3u8", "kat": "Music", "id": "yamtichoni.il"}, {"name": "זום (Zoom)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/zoom-il.png", "url": "http://stream.mcquack.net/377/index.m3u8", "kat": "Kids", "id": "zoom.il"}, {"name": "ערוץ 9 (Kanal 9)", "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel9-il.png", "url": "http://stream.mcquack.net/20/index.m3u8", "kat": "General", "id": "channel9.il"}];
@@ -667,7 +664,13 @@ function starten(c) {
   einblenden();
   if (hls) { hls.destroy(); hls = null; }
   video.removeAttribute("src"); video.load();
-  if (window.Hls && Hls.isSupported()) {
+  if (NATIV) {
+    // Safari (Mac, iPhone, iPad): eigener HLS-Player - zuverlaessiger als
+    // hls.js ueber ManagedMediaSource, das auf dem iPhone nach ein paar
+    // Sekunden stehen bleiben kann
+    video.src = c.url;
+    los();
+  } else if (window.Hls && Hls.isSupported()) {
     hls = new Hls({ backBufferLength: 30, maxBufferLength: 30, enableWorker: true });
     hls.on(Hls.Events.MANIFEST_PARSED, () => los());
     hls.on(Hls.Events.ERROR, (_, d) => {
@@ -708,7 +711,30 @@ function gescheitert(text) {
 }
 video.addEventListener("playing", () => { $("lade").classList.remove("sichtbar"); meldung(""); versuche = 0; });
 video.addEventListener("waiting", () => $("lade").classList.add("sichtbar"));
-video.addEventListener("error", () => { if (!hls) gescheitert(); });
+video.addEventListener("error", () => {
+  if (hls || !aktuell) return;
+  // Safari-Player: wie bei hls.js bis zu drei neue Versuche
+  if (versuche < 3) {
+    versuche++;
+    const c = aktuell;
+    setTimeout(() => { if (aktuell === c) { video.src = c.url; los(); } }, 1000 * versuche);
+  } else {
+    gescheitert();
+  }
+});
+
+// Waechter: steht das Bild, obwohl gespielt wird, den Sender neu laden -
+// zweimal, danach eine Meldung statt eines schwarzen Bildes
+let letzteZeit = -1, stillSeit = 0, neustarts = 0;
+setInterval(() => {
+  if (!$("spieler").classList.contains("offen") || !aktuell || video.paused || $("meldung").textContent) { stillSeit = 0; return; }
+  if (video.currentTime !== letzteZeit) { letzteZeit = video.currentTime; stillSeit = 0; if (video.currentTime > 5) neustarts = 0; return; }
+  stillSeit += 2;
+  if (stillSeit >= 12) {
+    stillSeit = 0;
+    if (neustarts < 2) { neustarts++; starten(aktuell); } else { gescheitert(); }
+  }
+}, 2000);
 video.addEventListener("resize", osdFuellen);
 video.addEventListener("loadedmetadata", osdFuellen);
 
@@ -792,8 +818,6 @@ function vollbild() {
 }
 
 $("zu").addEventListener("click", schliessen);
-$("vorher").addEventListener("click", (e) => { e.stopPropagation(); zappen(-1); });
-$("nachher").addEventListener("click", (e) => { e.stopPropagation(); zappen(1); });
 $("liste").addEventListener("click", (e) => { e.stopPropagation(); listeUmschalten(); });
 $("ton").addEventListener("click", (e) => { e.stopPropagation(); video.muted = !video.muted; tonAnzeigen(); einblenden(); });
 $("vollbild").addEventListener("click", (e) => { e.stopPropagation(); vollbild(); });
@@ -821,8 +845,6 @@ document.addEventListener("keydown", (e) => {
   if (!$("spieler").classList.contains("offen")) return;
   const listeOffen = $("senderliste").classList.contains("offen");
   switch (e.key) {
-    case "ArrowLeft": if (!listeOffen) { e.preventDefault(); zappen(RTL ? 1 : -1); } break;
-    case "ArrowRight": if (!listeOffen) { e.preventDefault(); zappen(RTL ? -1 : 1); } break;
     case "ArrowUp": case "ArrowDown":
       if (!listeOffen) { e.preventDefault(); listeUmschalten(true); }
       else {
