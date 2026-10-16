@@ -728,8 +728,7 @@ function osdFuellen() {
   const teile = [`<span class="punkt-live">שידור חי</span>`];
   if (aktuell.kat && katName(aktuell.kat) !== reiheTitel) teile.push(`<span>${esc(katName(aktuell.kat))}</span>`);
   if (q) teile.push(`<span class="chip">${q}</span>`);
-  const i = zapListe.indexOf(aktuell);
-  if (zapListe.length > 1) teile.push(`<span>${esc(reiheTitel)} · ${i + 1}/${zapListe.length}</span>`);
+  if (zapListe.length > 1) teile.push(`<span>${esc(reiheTitel)}</span>`);
   $("osdInfo").innerHTML = teile.join("");
   $("osdSendung").innerHTML = sendungHtml(aktuell, true);
   $("osdProgramm").style.display = sendungen(aktuell).length ? "" : "none";
