@@ -8,7 +8,7 @@ http://stream.mcquack.net/294/index.m3u8
 https://dsk76kvc9kie6.cloudfront.net/media/87f59c77-03f6-4bad-a648-897e095e7360/profile/5/profileManifest.m3u8
 #EXTINF:-1 tvg-name="HOT Zone" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/hot-zone-il.png" tvg-id="hotzone.il" tvg-country="IL" group-title="Israel",HOT Zone
 http://stream.mcquack.net/379/index.m3u8
-#EXTINF:-1 tvg-name="HOT Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" tvg-id="HOTDrama.il" tvg-country="IL" group-title="Israel",HOT Drama
+#EXTINF:-1 tvg-name="HOT Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" tvg-id="hothbo.il" tvg-country="IL" group-title="Israel",HOT Drama
 http://stream.mcquack.net/381/index.m3u8
 #EXTINF:-1 tvg-name="Kan Educational" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png" tvg-id="kaneducation.il" tvg-country="IL" group-title="Israel",כאן חינוכית
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8
