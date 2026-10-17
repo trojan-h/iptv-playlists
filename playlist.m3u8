@@ -238,7 +238,7 @@ https://live.yoltv.com/hls/stream.m3u8
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8
 #EXTINF:-1 tvg-name="RadioItaliaTV" tvg-logo="https://i.imgur.com/4VCEJuJ.png" tvg-id="Radio.Italia.TV.HD.it" tvg-country="IT" group-title="Italy;Music",RadioItaliaTV
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
-#EXTINF:-1 tvg-name="Radio Italia Live" tvg-logo="tvg-logo="https://assets.radioplayer.org/380/380222/1920/1080/mgt8erj9.jpeg" tvg-id="Radio.Italia.Trend.Tv.HD.it" tvg-country="IT" group-title="Italy;Music",Radio Italia Live
+#EXTINF:-1 tvg-name="Radio Italia Live" tvg-logo="https://assets.radioplayer.org/380/380222/1920/1080/mgt8erj9.jpeg" tvg-id="Radio.Italia.Trend.Tv.HD.it" tvg-country="IT" group-title="Italy;Music",Radio Italia Live
 https://radioitalialive.akamaized.net/hls/live/2124228/radioitalialive/master.m3u8
 #EXTINF:-1 tvg-name="Rai 1 " tvg-logo="https://i.imgur.com/CAx7yRm.png" tvg-id="Rai1.it" tvg-country="IT" group-title="Italy;General",Rai 1
 https://d3k8wzt41aflvx.cloudfront.net/RAI1/Live.m3u8
