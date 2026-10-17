@@ -750,3 +750,5 @@ http://stream.mcquack.net/46/index.m3u8
 http://stream.mcquack.net/377/index.m3u8
 #EXTINF:-1 tvg-name="ערוץ 9 (Kanal 9)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/channel9-il.png" tvg-id="channel9.il" tvg-country="IL" group-title="Israel;General",ערוץ 9
 http://stream.mcquack.net/20/index.m3u8
+#EXTINF:-1 tvg-name="Relaxing Nature 4K" tvg-id="Relaxing.Nature" tvg-language="eng" group-title="Israel;Other",Relaxing Nature 4K
+http://stream.mcquack.net/459/index.m3u8
